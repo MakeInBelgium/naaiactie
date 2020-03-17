@@ -1,50 +1,46 @@
 ## Instructiefiche medisch mondmasker met vervangbare filter
 
 ```
-Ontworpen door het burgercollectief Make in Belgium om bijstand te verlenen tijdens de
-COVID-19 crisis.
+Designed by the community collective Make In Belgium to provide assistance during the COVID-19 crisis.
 ```
 ```
-Laatste update: 17 March 2020 at 16:
+Last update: 17 March at 16:53
 ```
 ```
-Deze tekst is in spoedtempo samengesteld en is wellicht voor verbetering vatbaar. Indien u fouten
-ontdekt of nuttige aanvullende informatie hebt, mag u Make in Belgium zeker contacteren.
+This document was made with speed in mind, therefore improvements are possible. In case you find any
+mistakes or wish to provide additional information, please feel free to contact Make In Belgium.
 ```
 ```
-@coronadenktank op Twitter
+@coronadenktank on Twitter.
 ```
 ```
-Vermeld daarbij de werknaam voor dit masker: Peter V1.
+Please mention the work in progress name for this mask: Peter V1.
 ```
 ```
-Gebruik dit mondmasker niet om in de buurt van een besmette persoon te komen of een
-besmette persoon te verzorgen. Gebruik het vooral om te voorkomen dat je zelf anderen niet
-besmet.
+Do not use this mask to approximate an infected person or provide care to them. This mask is to 
+prevent spreading the infection to others.
 ```
 
 # 1. Concept
 
-Dit masker heeft een stoffen wasbare buitenlaag zodat het hergebruikt kan worden.
+This mask has a fabric outer layer that is washable so that it can be reused.
 
-De focus van het ontwerp ligt op veiligheid:
+The focus of the design is on safety:
 
-- een goed aansluitende pasvorm^
-- de mogelijkheid om filtermaterialen van uiteenlopende dikte en densiteit te gebruiken^
+- A well-fitting fit.
+- The possibility to use filter material that varies in thickness and density.
 
-Om de verspreiding te bevorderen past het patroon van dit masker past op een A4 blad. Er is dus
-geen speciaal patroonpapier nodig.
+To facilitate the sharing of this pattern it has been designed to fit an A4 paper. There is no
+need for special sewing pattern paper.
 
-Het masker werkt als een mini kussensloop: onderaan zit een opening met een omslag, net zoals
-bij de meeste kussenslopen. In die opening kan een vervangbare filter geschoven worden die dan
-door de omslag op zijn plaats gehouden wordt. Dit garandeert dat de filter netjes op zijn plaats
-blijft tijdens het dragen.
+The mask works like a mini pillowcase: at the bottom an opening can be found with a cover, like
+most pillowcases. Inside that opening a replaceable filter can be placed that is held in place by
+said cover. This guarantees that the filter will stay put when the mask is worn.
 
-De linten zijn lang genoeg zodat het masker vlot vlot kan geknoopt en los gemaakt kan worden.
-Het afnemen van het masker kan daardoor gebeuren met de handen op een veilige afstand van
-het hoofd.
+The ribbons are long enough so that the mask can easily be tied and untied. This is so the mask can be removed
+with your hand whilst keeping a safe distance from your head.
 
-Dit model is gebaseerd op een ontwerp van Dr Chen Xiaoting, een Taiwanese anesthesist.
+Thi model is based on a design by Dr Chen Xiaoting, a Taiwanese anesthetist.
 
 (https://mustsharenews.com/cloth-face-mask/)
 
