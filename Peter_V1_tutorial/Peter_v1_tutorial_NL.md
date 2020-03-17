@@ -107,40 +107,20 @@ Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het
 - 4 linten van 50 cm, gebruik geen elastiek tenzij deze bestand is tegen wassen op 90°C
 - vervangbaar filtermateriaal 17 x 13 cm
 
+# 7. Hygiëne
 
-# 7. Productielijn
+## ✓ NEEM VOLDOENDE HYGIËNISCHE MAATREGELEN
 
-- om de productie te versnellen kan er aan de band gewerkt worden door alle stappen
-    afzonderlijk na elkaar voor een aantal maskers te herhalen: bv: snij eerste 10 lappen stof, veertig
-    linten, vervolgens tienmaal het patroon aftekenen, enz. Zo vermijd je om iedere keer van focus
-    en materiaal te moeten wijzigen
-- dit bandwerk kan eventueel verdeeld worden: 1 iemand snijdt, één iemand tekent het patroon
-    over, enz.
-- deze verdeling kan eventueel opgesplitst worden over verschillende locaties:
+## ✓ WAS JE HANDEN
 
-```
-✓ Pieter levert stof aan Jos
-✓Jos snijdt stof terwijl zijn dochter van 12 de linten knipt
-✓Marie komt oppikken en tekent patroon op de stof
-✓Marie’s vrouw Eva strijkt plooien
-✓waarna Anna de gestreken stof komt oppikken en naar Mark voert, enzovoorts ...
-```
-# 8. Hygiëne
+## ✓ PROBEER JE NAAIMACHINE ZO STERIEL MOGELIJK TE MAKEN
 
-## ✓NEEM VOLDOENDE HYGIËNISCHE MAATREGELEN
+## ✓ WAS VERVOLGENS OPNIEUW JE HANDEN ALVORENS AAN VERDER TE WERKEN
 
-## ✓WAS JE HANDEN
-
-## ✓PROBEER JE NAAIMACHINE ZO STERIEL MOGELIJK TE MAKEN
-
-## ✓WAS VERVOLGENS OPNIEUW JE HANDEN ALVORENS AAN VERDER
-
-## TE WERKEN
-
-## ✓DRAAG TIJDENS HET MAKEN ZELF EEN MONDMASKER
+## ✓ DRAAG TIJDENS HET MAKEN ZELF EEN MONDMASKER
 
 
-# 9. Werkwijze
+# 8. Werkwijze
 
 - je hoeft de afmetingen van het patroon niet
     uit te breiden met een naadtoeslag
@@ -207,4 +187,4 @@ en spelden gebruiken zoals op de foto’s
 - eventueel vullen met een filter
 
 
-# 10.Patroon
+# 9.Patroon

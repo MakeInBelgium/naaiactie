@@ -105,7 +105,7 @@ fluids. Use by preference a synthetic fabric (polyester), but cotton can also be
 ## ✓ WHILST MAKING A MASK WEAR A MASK YOURSELF
 
 
-# 9. Work method
+# 8. Work method
 
 - je hoeft de afmetingen van het patroon niet
     uit te breiden met een naadtoeslag
@@ -172,5 +172,5 @@ en spelden gebruiken zoals op de foto’s
 - eventueel vullen met een filter
 
 
-# 10.Pattern
+# 9. Pattern
 ![Pattern](https://github.com/MakeInBelgium/naaiactie/blob/master/Peter_V1_patroon.png)
