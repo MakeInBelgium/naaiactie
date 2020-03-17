@@ -107,8 +107,7 @@ fluids. Use by preference a synthetic fabric (polyester), but cotton can also be
 
 # 8. Work method
 
-- je hoeft de afmetingen van het patroon niet
-    uit te breiden met een naadtoeslag
+- You don't need to measure out the pattern with seam allowance
 - de stof voor de binnenkant: snij een
     rechthoekige lap stof van 20 x 18.5 cm
 - de stof voor de buitenkant: snij een
@@ -173,4 +172,4 @@ en spelden gebruiken zoals op de foto’s
 
 
 # 9. Pattern
-![Pattern](https://github.com/MakeInBelgium/naaiactie/blob/master/Peter_V1_patroon.png)
+![Pattern](images/peter_v1/pattern.png)
