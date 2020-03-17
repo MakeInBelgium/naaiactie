@@ -12,5 +12,7 @@ COPY . /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
 
+RUN mv index_nl.html index.html
+
 RUN sed -i "s|{VERSION}|$vcsref|g" index.html
 RUN sed -i "s|maakjemondmasker.be|$DOMAIN|g" index.html
