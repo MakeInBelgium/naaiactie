@@ -26,6 +26,10 @@ main > section {
     padding: 2rem;
 }
 
+#introduction {
+    background-image: linear-gradient(to right, #FFF7F3 50%, white 50%) !important;
+}
+
 #instructions {
     & > h2 {
         font-size: 5rem;
