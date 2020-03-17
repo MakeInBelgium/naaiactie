@@ -1,0 +1,23 @@
+{
+  "name": "naaiactie",
+  "version": "1.0.0",
+  "description": "Bijdrage leveren? Dat kan! * Maak een fork en een pull request. * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeInBelgium/naaiactie.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakeInBelgium/naaiactie/issues"
+  },
+  "homepage": "https://github.com/MakeInBelgium/naaiactie#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
