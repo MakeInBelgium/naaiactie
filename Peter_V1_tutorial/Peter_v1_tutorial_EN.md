@@ -92,40 +92,20 @@ fluids. Use by preference a synthetic fabric (polyester), but cotton can also be
 - 4 Ribbons of 50 cm, do not use elastic unless it is resistant to washing at 90°C.
 - Replaceable filter material 17 x 13 cm.
 
+# 7. Hygiëne
 
-# 7. Productielijn
+## ✓ TAKE APPROPRIATE HYGIENIC MEASURES
 
-- om de productie te versnellen kan er aan de band gewerkt worden door alle stappen
-    afzonderlijk na elkaar voor een aantal maskers te herhalen: bv: snij eerste 10 lappen stof, veertig
-    linten, vervolgens tienmaal het patroon aftekenen, enz. Zo vermijd je om iedere keer van focus
-    en materiaal te moeten wijzigen
-- dit bandwerk kan eventueel verdeeld worden: 1 iemand snijdt, één iemand tekent het patroon
-    over, enz.
-- deze verdeling kan eventueel opgesplitst worden over verschillende locaties:^
+## ✓ WASH YOUR HANDS
 
-```
-✓ Pieter levert stof aan Jos^
-✓Jos snijdt stof terwijl zijn dochter van 12 de linten knipt^
-✓Marie komt oppikken en tekent patroon op de stof^
-✓Marie’s vrouw Eva strijkt plooien^
-✓waarna Anna de gestreken stof komt oppikken en naar Mark voert, enzovoorts ...^
-```
-# 8. Hygiëne
+## ✓ TRY STERILISING YOUR SEWING MACHINE AS OFTEN AS POSSIBLE
 
-## ✓NEEM VOLDOENDE HYGIËNISCHE MAATREGELEN
+## ✓ WRASH YOUR HANDS BEFORE CONTINUING WORK
 
-## ✓WAS JE HANDEN
-
-## ✓PROBEER JE NAAIMACHINE ZO STERIEL MOGELIJK TE MAKEN
-
-## ✓WAS VERVOLGENS OPNIEUW JE HANDEN ALVORENS AAN VERDER
-
-## TE WERKEN
-
-## ✓DRAAG TIJDENS HET MAKEN ZELF EEN MONDMASKER
+## ✓ WHILST MAKING A MASK WEAR A MASK YOURSELF
 
 
-# 9. Werkwijze
+# 9. Work method
 
 - je hoeft de afmetingen van het patroon niet
     uit te breiden met een naadtoeslag
@@ -192,4 +172,5 @@ en spelden gebruiken zoals op de foto’s
 - eventueel vullen met een filter
 
 
-# 10.Patroon
+# 10.Pattern
+![Pattern](https://github.com/MakeInBelgium/naaiactie/blob/master/Peter_V1_patroon.png)
