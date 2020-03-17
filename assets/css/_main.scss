@@ -1,5 +1,7 @@
 body, html {
     height: 100%;
+    font-family: upgrade, sans-serif;
+    font-style: normal;
 }
 
 .cta-box {
@@ -45,4 +47,16 @@ main > section {
     article figure {
         padding: 2rem;
     }
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-bottom: 25px solid #ff5d47;
+    width: 80%;
+}
+
+hr.light {
+    border-color: $light;    
 }
