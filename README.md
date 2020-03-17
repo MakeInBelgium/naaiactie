@@ -4,6 +4,24 @@ Bijdrage leveren? Dat kan!
 * Maak een fork en een pull request.
 * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).
 
+## Deployment
+
+Site is beschikbaar in 2 verschillende talen:
+- NL: https://maakjemondmasker.be/
+- FR: https://faitesvotremasquebuccal.be/
+
+Het is een *onepager* en iedere taal heeft zn eigen index bestand:
+- index_nl.html
+- index_fr.html
+
+De website wordt gehost bij cloudz.be. Daar draait een script dat iedere 5 minuten een `git pull` doet van deze repo.
+Hou er rekening mee dat Cloudflare alles cached. Bij een update moet de cached geïnvalideerd worden.
+
+```bash
+# Stuur je public key naar @iworx
+ssh coronade@da-2.cloudz.be
+```
+
 ## Kom er bij!
 Neem dan deel aan de conversatie op de Slack workspace van de Corona-denktank Make in Belgium: https://join.coronadenktank.be (Kanaal: #project-corona-naaiactie-dev).
 
