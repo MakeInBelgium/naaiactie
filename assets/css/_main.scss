@@ -23,3 +23,14 @@ main > section {
     display: block;
     padding: 2rem;
 }
+
+.instruction-list {
+    article {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    article figure {
+        padding: 2rem;
+    }
+}
