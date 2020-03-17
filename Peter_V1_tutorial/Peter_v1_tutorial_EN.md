@@ -67,37 +67,30 @@ some dexterity.
 
 # 5. Size
 
-Het bijgeleverde patroon is geschikt voor een volwassen man, maat L (large).
+The attached pattern is suited for a grown male, size L (large).
 
-Om een kleinere maat te maken kan je:
+To make a smaller mask, you can do the following:
 
-- de breedte versmallen: L = 20 cm, M = 19 cm, S = 18 cm
-- de lengte inkorten door het stuk tussen 0.5 en 6.0 van de binnenkant en het stuk tussen 12.5 en
-    18.0 van de buitenkant (zie patroon) met dezelfde afstand in te korten. Dus van beide stukken
-    neem je evenveel weg. Eventueel maak je ook het stuk tussen 14.0 en 18.0 van de binnenkant
-    en tussen 0.5 en 4.5 op dezelfde manier korter. Je kan dit eenvoudig doen door het patroon
-    gewoon over te tekenen en het patroon vervolgens op de hierboven beschreven plaatsen te
-    plooien.
+- Narrow the width: L = 20 cm, M = 19 cm, S = 18 cm
+- Shortening the length by shortening the piece between 0.5 and 6.0 from the inside of the mask and the piece between  12.5 and
+ 18.0 from the outside (see pattern) by the same length. Both pieces need to be shortened by the same amount.
+ You can possibly shorten the piece between 14.0 en 18.0 from the inside and between 0.5 en 4.5 by the same length. You can easily achieve 
+ this by drawing over the pattern on the aforementioned places thereafter folding it.
 
-# 6. Materiaal
+# 6. Material
 
 ```
-Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het masker uit
-één lap stof gemaakt worden. Voeg het patroon hiervoor samen waar de middennaad zit.
+To shorten the production process you can use one piece of fabric IF REALLY NEEDED.
+Add the pattern together on the centre seam.
 ```
-- lap stof voor de buitenkant 20 x 20.5 cm. Deze stof moet goed ademen en mag geen vocht
-    absorberen. Gebruik dus bij voorkeur een synthetische stof (polyester) maar ook katoen kan
-    gebruikt worden
-- lap stof voor de binnenkant 20 x 18.5 cm. Ideaal is dit polypropyleen (https://nl.wikipedia.org/
-    wiki/Non-woven) maar ook katoen kan gebruikt worden
-- zorg dat beide lappen een duidelijk verschillende kleur hebben zodat je altijd zeker bent dat je
-    dezelfde kant naar buiten/binnen draagt
-- vermijd stoffen die heel erg rekken omdat het masker dan minder goed zijn vorm zal houden.
-    Stoffen met veel rek zijn ook moeilijker te verwerken onder de naaimachine
-- was de stof eventueel voor zodat je masker niet te veel krimpt bij zijn eerste (hete)
-    sterilisatiebeurt.
-- 4 linten van 50 cm, gebruik geen elastiek tenzij deze bestand is tegen wassen op 90°C^
-- vervangbaar filtermateriaal 17 x 13 cm^
+- Piece of fabric for the outer layer 20 x 20.5 cm. This fabric needs to be able to breathe well whilst not being able to absorb
+fluids. Use by preference a synthetic fabric (polyester), but cotton can also be used.
+- Piece of fabric for the inside layer 20 x 18.5 cm. Ideally this is polypropylene (https://nl.wikipedia.org/wiki/Non-woven) but cotton could also be used.
+- Make sure both pieces of fabric have a clear color differential so you're able to make sure you always wear the correct side on the inside and outside.
+- Avoid fabric that stretches so that the mask retains its shape. Stretchy fabric is also harder to process when using a sewing machine.
+- Preferably wash the fabric before making the mask so it doesn't shrink after washing it.
+- 4 Ribbons of 50 cm, do not use elastic unless it is resistant to washing at 90°C.
+- Replaceable filter material 17 x 13 cm.
 
 
 # 7. Productielijn
