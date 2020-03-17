@@ -9665,6 +9665,16 @@ main > section {
 #introduction {
   background-image: linear-gradient(to right, #FFF7F3 50%, white 50%) !important;
 }
+#introduction .container {
+  position: relative;
+}
+#introduction .fod-approved {
+  position: absolute;
+  bottom: 10px;
+}
+#introduction .fod-approved img {
+  width: 150px;
+}
 
 #instructions > h2 {
   font-size: 5rem;
@@ -9729,6 +9739,14 @@ hr.light {
   -o-transform: rotate(0.000001deg);
   -ms-transform: rotate(0.000001deg);
   transform: rotate(0.000001deg);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  transform: scale(1.03);
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
