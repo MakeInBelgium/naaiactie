@@ -1,0 +1,92 @@
+html, 
+body {
+    height: 100%;
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 100vh;
+}
+
+.fullscreen {
+	overflow:hidden;
+}
+
+.bb-logo {
+	height:80px;
+	width:auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+.meethead {
+	display: grid;
+	grid-template-columns: 120px auto;
+}
+
+.meethead__logo {
+	padding:2px;
+}
+
+.meethead__logoimg {
+	width: 100%;
+	max-height: 30px;
+	height: auto;
+}
+
+.meethead__body {
+	padding:2px;
+}
+
+#chan {
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+.meet {
+	flex-grow: 1;
+}
+
+#chan.hidden {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.wrd_disp {
+	display: inline-block;
+	background-color: rgb(255,255,100);
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 2px;
+}
+
+.version {
+	text-align: right;
+	font-size: 10px;
+	color:rgb(150,150,150)
+}
+
+.btn-whatsapp::before {
+	font-family: "Font Awesome 5 Brands"; 
+	font-weight: 900; 
+	content:"\f232";
+	margin-right:5px;
+}
+
+.btn-copy::before {
+	font-family: "Font Awesome 5 Free"; 
+	font-weight: 900; 
+	content:"\f0ea";
+	margin-right:5px;
+}
+
+.btn-copy.clicked::before {
+	content: "\f00c";
+}

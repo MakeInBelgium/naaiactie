@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Primary Meta Tags -->
+  <title>maakjemondmasker.be</title>
+  <meta name="title" content="maakjemondmasker.be">
+  <meta name="description" content="Eenvoudig, snel &eacute;n veilig beeldbellen voor iedereen!">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://maakjemondmasker.be/">
+  <meta property="og:title" content="maakjemondmasker.be">
+  <meta property="og:description" content="Eenvoudig, snel &eacute;n veilig beeldbellen voor iedereen!">
+  <meta property="og:image" content="https://maakjemondmasker.be/assets/praatbox-og.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://maakjemondmasker.be/">
+  <meta property="twitter:title" content="maakjemondmasker.be">
+  <meta property="twitter:description" content="Eenvoudig, snel &eacute;n veilig beeldbellen voor iedereen!">
+  <meta property="twitter:image" content="https://maakjemondmasker.be/assets/praatbox-og.jpg">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link href="./assets/style.css?v{VERSION}" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- sanity check -->
+  <div class="container hidden" id="alert_js">
+    <div class="alert alert-danger" role="alert">
+      Je hebt Javascript uitgeschakeld. Javascript is noodzakelijk voor Praatbox.
+    </div>
+  </div>
+  <!-- Page Content -->
+  
+
+      <div class="col-lg-8 mx-auto d-flex justify-content-between">
+        <p><a href="https://coronadenktank.be/" target="_blank" rel="noopener">coronadenktank.be</a></p>
+        <p class="version">v. {VERSION}</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="chan" class="hidden">
+    <div class="meethead">
+      <div class="meethead__logo">
+        <img src="./assets/praatbox_logo.svg" class="meethead__logoimg" alt="Praatbox">
+      </div>
+      <div class="meethead__body">
+        Vul op <strong>maakjemondmasker.be</strong>
+        <span class="wrd_disp" id="wrd_disp_a"></span> <span class="wrd_disp" id="wrd_disp_b"></span> <span
+          class="wrd_disp" id="wrd_disp_c"></span> in om mee te doen.
+        <button class="btn btn-sm btn-copy btn-info mb-2" id="linkbtn">Kopieer link</button>
+        <button onclick="sendWhatsapp()" class="btn btn-sm btn-whatsapp btn-info mb-2">Whatsapp</button>
+      </div>
+    </div>
+    <div class="meet" id="meet"></div>
+  </div>
+  <!-- jQuery JavaScript -->
+  <script src="./vendor/jquery/jquery.slim.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Praatbox script -->
+  <script src="./assets/app.js?v{VERSION}"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://googletagmanager.com/gtag/js?id=UA-52249571-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-52249571-4');
+  </script>
+</body>
+
+</html>
