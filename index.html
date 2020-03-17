@@ -26,46 +26,98 @@
   <meta property="twitter:image" content="https://maakjemondmasker.be/assets/praatbox-og.jpg">
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css?v{VERSION}" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
     integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  <link href="./assets/style.css?v{VERSION}" rel="stylesheet">
 
 </head>
 
 <body>
-  <!-- sanity check -->
-  <div class="container hidden" id="alert_js">
-    <div class="alert alert-danger" role="alert">
-      Je hebt Javascript uitgeschakeld. Javascript is noodzakelijk voor Praatbox.
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Naaiactie</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+        aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </nav>
+
   <!-- Page Content -->
-  
-
-      <div class="col-lg-8 mx-auto d-flex justify-content-between">
-        <p><a href="https://coronadenktank.be/" target="_blank" rel="noopener">coronadenktank.be</a></p>
-        <p class="version">v. {VERSION}</p>
+  <main>
+    <section class="container-fluid">
+      <div class="row align-items-center h-100">
+        <div class="col-md-6 p-5 bg-light h-100 d-flex justify-content-end">
+          <div class="cta-box">
+            <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor sagittis, volutpat leo tempus,
+              hendrerit felis.</p>
+            <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+              auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+            <p><a class="btn btn-primary btn-lg" href="#">download</a></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <figure class="main-graphic">
+            IMG HERE
+          </figure>
+        </div>
       </div>
-    </div>
-  </div>
-
-
-  <div id="chan" class="hidden">
-    <div class="meethead">
-      <div class="meethead__logo">
-        <img src="./assets/praatbox_logo.svg" class="meethead__logoimg" alt="Praatbox">
+    </section>
+    <section id="concept" class="bg-primary text-white">
+      <div class="container py-5">
+        <h2>Concept</h2>
       </div>
-      <div class="meethead__body">
-        Vul op <strong>maakjemondmasker.be</strong>
-        <span class="wrd_disp" id="wrd_disp_a"></span> <span class="wrd_disp" id="wrd_disp_b"></span> <span
-          class="wrd_disp" id="wrd_disp_c"></span> in om mee te doen.
-        <button class="btn btn-sm btn-copy btn-info mb-2" id="linkbtn">Kopieer link</button>
-        <button onclick="sendWhatsapp()" class="btn btn-sm btn-whatsapp btn-info mb-2">Whatsapp</button>
+    </section>
+    <section id="instructions" class="bg-light">
+      <div class="container py-5">
+        <h2>Gebruikersinstructies</h2>
       </div>
-    </div>
-    <div class="meet" id="meet"></div>
-  </div>
+    </section>
+    <section id="doorsnede" class="bg-lightblue">
+      <div class="container py-5">
+        <h2>Doorsnede</h2>
+      </div>
+    </section>
+    <section class="container-fluid bg-light">
+      <div class="row align-items-center h-100">
+        <div class="col-md-6 p-5 bg-primary h-100 d-flex justify-content-end">
+          <div class="cta-box">
+            <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor sagittis, volutpat leo tempus,
+              hendrerit felis.</p>
+            <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+              auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+            <p><a class="btn btn-primary btn-lg" href="#">download</a></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </section>
+    <section id="precautions" class="bg-lightblue">
+      <div class="container py-5">
+        <h2>Maatregelen...</h2>
+      </div>
+    </section>
+    <section id="call-to-action" class="bg-light">
+      <div class="container py-5">
+        <h2>CTA: werkwijze...</h2>
+      </div>
+    </section>
+  </main>
+
   <!-- jQuery JavaScript -->
   <script src="./vendor/jquery/jquery.slim.min.js"></script>
   <!-- Bootstrap core JavaScript -->
@@ -75,13 +127,13 @@
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://googletagmanager.com/gtag/js?id=UA-52249571-4"></script>
-  <script>
+  <!-- <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-52249571-4');
-  </script>
+  </script> -->
 </body>
 
 </html>
