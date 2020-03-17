@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+}
+
+.cta-box {
+    max-width: 400px;
+}
+
+main {
+    min-height: 700px;
+}
+
+main > section {
+    position: relative;
+}
+
+.step-number {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 5rem;
+    font-weight: bold;
+    display: block;
+    padding: 2rem;
+}
+
+#instructions {
+    & > h2 {
+        font-size: 5rem;
+        // position: absolute;
+        // bottom: 5rem;
+        // left: 0;
+        // font-weight: bold;
+        // display: block;
+        // padding: 2rem;
+    }
+}
+
+.instruction-list {
+    article {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    article figure {
+        padding: 2rem;
+    }
+}

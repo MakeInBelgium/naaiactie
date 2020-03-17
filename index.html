@@ -9,63 +9,248 @@
   <!-- Primary Meta Tags -->
   <title>maakjemondmasker.be</title>
   <meta name="title" content="maakjemondmasker.be">
-  <meta name="description" content="Eenvoudig, snel &eacute;n veilig beeldbellen voor iedereen!">
+  <meta name="description" content="">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://maakjemondmasker.be/">
   <meta property="og:title" content="maakjemondmasker.be">
-  <meta property="og:description" content="Eenvoudig, snel &eacute;n veilig beeldbellen voor iedereen!">
-  <meta property="og:image" content="https://maakjemondmasker.be/assets/praatbox-og.jpg">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="https://maakjemondmasker.be/assets/maakjemondmasker-og.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://maakjemondmasker.be/">
   <meta property="twitter:title" content="maakjemondmasker.be">
-  <meta property="twitter:description" content="Eenvoudig, snel &eacute;n veilig beeldbellen voor iedereen!">
-  <meta property="twitter:image" content="https://maakjemondmasker.be/assets/praatbox-og.jpg">
+  <meta property="twitter:description" content="">
+  <meta property="twitter:image" content="https://maakjemondmasker.be/assets/maakjemondmasker-og.jpg">
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/css/style.css?v{VERSION}" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
     integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  <link href="./assets/style.css?v{VERSION}" rel="stylesheet">
 
 </head>
 
 <body>
-  <!-- sanity check -->
-  <div class="container hidden" id="alert_js">
-    <div class="alert alert-danger" role="alert">
-      Je hebt Javascript uitgeschakeld. Javascript is noodzakelijk voor Praatbox.
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Naaiactie</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+        aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </nav>
+
   <!-- Page Content -->
-  
-
-      <div class="col-lg-8 mx-auto d-flex justify-content-between">
-        <p><a href="https://coronadenktank.be/" target="_blank" rel="noopener">coronadenktank.be</a></p>
-        <p class="version">v. {VERSION}</p>
+  <main>
+    <section id="introduction" class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-md-6 p-5 bg-light d-flex justify-content-end">
+          <div class="cta-box my-5">
+            <h2>Lorem ipsum dolor sit</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor sagittis, volutpat leo tempus,
+              hendrerit felis.</p>
+            <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+              auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+            <p><a class="btn btn-primary btn-lg" href="#">download</a></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <figure class="main-graphic">
+            IMG HERE
+          </figure>
+        </div>
       </div>
-    </div>
-  </div>
-
-
-  <div id="chan" class="hidden">
-    <div class="meethead">
-      <div class="meethead__logo">
-        <img src="./assets/praatbox_logo.svg" class="meethead__logoimg" alt="Praatbox">
+    </section>
+    <section id="concept" class="bg-primary text-white">
+      <div class="container py-5">
+        <span class="step-number">1</span>
+        <h2>Concept</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="lead">Mauris malesuada mollis dui in tincidunt.</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Lorem ipsum dolor sit amet</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+              auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+          </div>
+        </div>
       </div>
-      <div class="meethead__body">
-        Vul op <strong>maakjemondmasker.be</strong>
-        <span class="wrd_disp" id="wrd_disp_a"></span> <span class="wrd_disp" id="wrd_disp_b"></span> <span
-          class="wrd_disp" id="wrd_disp_c"></span> in om mee te doen.
-        <button class="btn btn-sm btn-copy btn-info mb-2" id="linkbtn">Kopieer link</button>
-        <button onclick="sendWhatsapp()" class="btn btn-sm btn-whatsapp btn-info mb-2">Whatsapp</button>
+    </section>
+    <section id="instructions" class="bg-light">
+      <span class="step-number">2</span>
+      <h2 class="text-primary">Gebruikersinstructies</h2>
+      <div class="container py-5">
+        <div class="instruction-list text-primary">
+          <div class="row justify-content-between align-content-center">
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <article>
+                <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                <p>Mauris malesuada mollis dui in tincidunt</p>
+              </article>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="meet" id="meet"></div>
-  </div>
+    </section>
+    <section id="doorsnede" class="bg-info text-white">
+      <span class="step-number">3</span>
+      <div class="container py-5">
+        <h2>Doorsnede</h2>        
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <figure class="main-graphic">
+              IMG HERE
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <div class="text-white">
+              <h2>Lorem ipsum dolor sit</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor sagittis, volutpat leo tempus,
+                hendrerit felis.</p>
+              <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+                auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+              <p><a class="btn btn-primary btn-lg" href="#">porttitor quis</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-light">
+      <div class="row h-100">
+        <div class="col-md-6 p-5 bg-primary text-white h-100 d-flex justify-content-end position-relative">
+          <span class="step-number">4</span>
+          <div class="cta-box">
+            <h2>maat</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor sagittis, volutpat leo tempus,
+              hendrerit felis.</p>
+            <h2>materiaal</h2>
+            <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+              auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+          </div>
+        </div>
+        <div class="col-md-6 p-5 position-relative">
+          <span class="step-number">5</span>
+          <h2>productielijn</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor sagittis, volutpat leo tempus,
+              hendrerit felis.</p>
+            <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+              auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+        </div>
+      </div>
+    </section>
+    <section id="precautions" class="bg-info">
+      <span class="step-number">6</span>
+      <div class="container py-5">
+        <h2 class="text-center">neem voldoende hygiënische maatregelen</h2>
+        <div class="container py-5">
+          <div class="precautions-list text-primary">
+            <div class="row justify-content-between align-content-center">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <article>
+                  <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                </article>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <article>
+                  <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                </article>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <article>
+                  <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                </article>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <article>
+                  <figure><img src="https://i.pravatar.cc/300" width="300" height="300" class="img-fluid rounded-circle" alt="" /></figure>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="call-to-action" class="bg-light">
+      <span class="step-number">7</span>
+      <div class="container py-5">
+        <h2 class="text-center">CTA: werkwijze en patroon downloaden</h2>
+        <div class="py-4 text-center">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et tortor sagittis, volutpat leo tempus,
+            hendrerit felis.</p>
+          <p>Mauris malesuada mollis dui in tincidunt. Fusce convallis dui quis arcu posuere pulvinar. Sed interdum
+            auctor mauris, a iaculis enim porttitor quis. Morbi at ex quam. Cras congue blandit venenatis.</p>
+          <p><a class="btn btn-primary btn-lg" href="#">download</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
   <!-- jQuery JavaScript -->
   <script src="./vendor/jquery/jquery.slim.min.js"></script>
   <!-- Bootstrap core JavaScript -->
@@ -75,13 +260,13 @@
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://googletagmanager.com/gtag/js?id=UA-52249571-4"></script>
-  <script>
+  <!-- <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-52249571-4');
-  </script>
+  </script> -->
 </body>
 
 </html>
