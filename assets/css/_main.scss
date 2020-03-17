@@ -24,6 +24,18 @@ main > section {
     padding: 2rem;
 }
 
+#instructions {
+    & > h2 {
+        font-size: 5rem;
+        // position: absolute;
+        // bottom: 5rem;
+        // left: 0;
+        // font-weight: bold;
+        // display: block;
+        // padding: 2rem;
+    }
+}
+
 .instruction-list {
     article {
         margin-bottom: 2rem;
