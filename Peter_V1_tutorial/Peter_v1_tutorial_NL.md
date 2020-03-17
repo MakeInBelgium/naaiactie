@@ -29,8 +29,8 @@ Dit masker heeft een stoffen wasbare buitenlaag zodat het hergebruikt kan worden
 
 De focus van het ontwerp ligt op veiligheid:
 
-- een goed aansluitende pasvorm^
-- de mogelijkheid om filtermaterialen van uiteenlopende dikte en densiteit te gebruiken^
+- een goed aansluitende pasvorm
+- de mogelijkheid om filtermaterialen van uiteenlopende dikte en densiteit te gebruiken
 
 Om de verspreiding te bevorderen past het patroon van dit masker past op een A4 blad. Er is dus
 geen speciaal patroonpapier nodig.
@@ -50,15 +50,15 @@ Dit model is gebaseerd op een ontwerp van Dr Chen Xiaoting, een Taiwanese anesth
 
 # 2. Gebruiksinstructies
 
-- was je handen alvorens het masker aan te raken^
-- let uitermate goed op bij het aan- en uitdoen, alsook het opbergen van het masker^
-- raak de binnenkant van het masker niet aan, je herkent de binnenkant aan de kleur^
+- was je handen alvorens het masker aan te raken
+- let uitermate goed op bij het aan- en uitdoen, alsook het opbergen van het masker
+- raak de binnenkant van het masker niet aan, je herkent de binnenkant aan de kleur
 - gebruik bij voorkeur de uiteinden van de linten om het masker te manipuleren zodat je handen
     ver van je gezicht blijven
 - plaats eventueel een veiligheidsbril over de bovenrand van het masker zodat dit goed aansluit
     over de neusbrug
-- draag het masker niet langer dan nodig^
-- indien het mondmasker of de filter nat is: vervangen^
+- draag het masker niet langer dan nodig
+- indien het mondmasker of de filter nat is: vervangen
 - berg het masker na gebruik onmiddellijk op in een afgesloten zak of container, laat het niet rond
     je nek bengelen
 - het mondmasker zo vaak mogelijk steriliseren (minstens éénmaal per dag) door het te wassen
@@ -104,8 +104,8 @@ Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het
     Stoffen met veel rek zijn ook moeilijker te verwerken onder de naaimachine
 - was de stof eventueel voor zodat je masker niet te veel krimpt bij zijn eerste (hete)
     sterilisatiebeurt.
-- 4 linten van 50 cm, gebruik geen elastiek tenzij deze bestand is tegen wassen op 90°C^
-- vervangbaar filtermateriaal 17 x 13 cm^
+- 4 linten van 50 cm, gebruik geen elastiek tenzij deze bestand is tegen wassen op 90°C
+- vervangbaar filtermateriaal 17 x 13 cm
 
 
 # 7. Productielijn
@@ -116,14 +116,14 @@ Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het
     en materiaal te moeten wijzigen
 - dit bandwerk kan eventueel verdeeld worden: 1 iemand snijdt, één iemand tekent het patroon
     over, enz.
-- deze verdeling kan eventueel opgesplitst worden over verschillende locaties:^
+- deze verdeling kan eventueel opgesplitst worden over verschillende locaties:
 
 ```
-✓ Pieter levert stof aan Jos^
-✓Jos snijdt stof terwijl zijn dochter van 12 de linten knipt^
-✓Marie komt oppikken en tekent patroon op de stof^
-✓Marie’s vrouw Eva strijkt plooien^
-✓waarna Anna de gestreken stof komt oppikken en naar Mark voert, enzovoorts ...^
+✓ Pieter levert stof aan Jos
+✓Jos snijdt stof terwijl zijn dochter van 12 de linten knipt
+✓Marie komt oppikken en tekent patroon op de stof
+✓Marie’s vrouw Eva strijkt plooien
+✓waarna Anna de gestreken stof komt oppikken en naar Mark voert, enzovoorts ...
 ```
 # 8. Hygiëne
 
@@ -160,19 +160,19 @@ en spelden gebruiken zoals op de foto’s
 ```
 - pers de zomen aan de korte zijden naar
     binnen
-- pers de vouw van de omslag naar binnen^
+- pers de vouw van de omslag naar binnen
 - leg het werkstuk met de goeie kant naar
     boven: zoom en omslag zijn naar de tafel toe
     gekeerd
 - vouw de zwarte lijn op de rode lijn volgens
     de blauwe pijl (bv 14.0 cm naar 12.0 cm)
-- herhaal voor ieder paar zwart-rood^
+- herhaal voor ieder paar zwart-rood
 - pers de vouwen (eventueel één per één)
 
 
-- gebruik een rechte steek van 3mm^
-- standaard naald en synthetische draad is ok^
-- stik de zomen aan de korte zijde om^
+- gebruik een rechte steek van 3mm
+- standaard naald en synthetische draad is ok
+- stik de zomen aan de korte zijde om
 - stik de omslag vast, stik hierbij in de
     naadtoeslag
 - stik de plooien eventueel vast in de
