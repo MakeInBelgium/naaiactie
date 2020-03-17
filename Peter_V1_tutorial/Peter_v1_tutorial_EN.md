@@ -113,7 +113,7 @@ fluids. Use by preference a synthetic fabric (polyester), but cotton can also be
     (If the fabric is stretchy, you can make the bottom flap larger. Add the extra length to the 20.5 cm.
 - Cut 4 ribbons of 50 cm each.
 
-[step1]('https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_1.jpg')
+![step1](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_1.jpg "Step 1")
 
 ```
 Incase you are proficient with using a sewing machine, you can skip this step and use the
@@ -169,4 +169,4 @@ pictures provided as a guideline.
 
 
 # 9. Pattern
-![Pattern]('https://github.com/MakeInBelgium/naaiactie/blob/translation-english/images/peter_v1/pattern.png')
+![Pattern](https://github.com/MakeInBelgium/naaiactie/blob/translation-english/images/peter_v1/pattern.png "Pattern")
