@@ -122,6 +122,7 @@ Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het
 
 # 8. Werkwijze
 
+
 - je hoeft de afmetingen van het patroon niet
     uit te breiden met een naadtoeslag
 - de stof voor de binnenkant: snij een
@@ -132,6 +133,8 @@ Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het
     mag je de omslag langer maken, reken de
     extra lengte bij de 20.5 cm)
 - knip vier linten van 50 cm
+
+![step1](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_1.jpg "Step 1")
 
 ```
 indien je handig genoeg bent met de
@@ -149,23 +152,32 @@ en spelden gebruiken zoals op de foto’s
 - herhaal voor ieder paar zwart-rood
 - pers de vouwen (eventueel één per één)
 
+![step2](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_2.jpg "Step 2")
 
 - gebruik een rechte steek van 3mm
 - standaard naald en synthetische draad is ok
 - stik de zomen aan de korte zijde om
 - stik de omslag vast, stik hierbij in de
     naadtoeslag
+    
+![step3](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_3.jpg "Step 3")
+
 - stik de plooien eventueel vast in de
     naadtoeslag als je dit makkelijker vindt om
     later de zijnaden dicht te stikken
 
+![step4](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_4.jpg "Step 4")
 
 - leg beide stukken met de goede kant op
     elkaar en stik de middennaad vast
+    
+![step5](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_5.jpg "Step 5")
+
 - zet aan iedere hoek een lint vast met een
     speld (zie tekening: de linten wijzen naar de
     binnenkant van het patroon)
 
+![step6](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_6.jpg "Step 6")
 
 - vouw het masker dicht langs de middennaad
     (alsof het een boterham is) zodanig dat de
@@ -182,9 +194,13 @@ en spelden gebruiken zoals op de foto’s
     begin en einde een kort stukje vooruit-
     achteruit-vooruit te naaien zodat de draad
     zichzelf vast trekt
+    
+![step7](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_7.jpg "Step 7")
 - draai het masker binnenstebuiten langs de
     open kant (waar de zoom en omslag zitten)
 - eventueel vullen met een filter
+
+[![step9](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_9.jpg "Step 9")]
 
 
 # 9.Patroon

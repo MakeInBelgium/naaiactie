@@ -120,32 +120,39 @@ Incase you are proficient with using a sewing machine, you can skip this step an
 pictures provided as a guideline.
 ```
 
+
 - Press the seams inward on the short sides
 - Press the seam on the bottom flap inside
-- leg het werkstuk met de goeie kant naar
-    boven: zoom en omslag zijn naar de tafel toe
-    gekeerd
+- Lay the workpiece right side up: the seam and bottom flap are facing the table
 - vouw de zwarte lijn op de rode lijn volgens
     de blauwe pijl (bv 14.0 cm naar 12.0 cm)
 - herhaal voor ieder paar zwart-rood^
 - pers de vouwen (eventueel één per één)
 
+![step2](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_2.jpg "Step 2")
 
 - gebruik een rechte steek van 3mm^
 - standaard naald en synthetische draad is ok^
 - stik de zomen aan de korte zijde om^
 - stik de omslag vast, stik hierbij in de
     naadtoeslag
+    
+ ![step3](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_3.jpg "Step 3")
+ 
 - stik de plooien eventueel vast in de
     naadtoeslag als je dit makkelijker vindt om
     later de zijnaden dicht te stikken
-
+    
+![step4](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_4.jpg "Step 4")
 
 - leg beide stukken met de goede kant op
     elkaar en stik de middennaad vast
+    
+![step5](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_5.jpg "Step 5")
 - zet aan iedere hoek een lint vast met een
     speld (zie tekening: de linten wijzen naar de
     binnenkant van het patroon)
+    
 
 
 - vouw het masker dicht langs de middennaad
