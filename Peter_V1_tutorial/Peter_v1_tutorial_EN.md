@@ -107,24 +107,21 @@ fluids. Use by preference a synthetic fabric (polyester), but cotton can also be
 
 # 8. Work method
 
-- You don't need to measure out the pattern with seam allowance
-- de stof voor de binnenkant: snij een
-    rechthoekige lap stof van 20 x 18.5 cm
-- de stof voor de buitenkant: snij een
-    rechthoekige lap stof van 20 x 20.5 cm
-    (indien de stof eerder slap is dan stijf, dan
-    mag je de omslag langer maken, reken de
-    extra lengte bij de 20.5 cm)
-- knip vier linten van 50 cm
+- You don't need to measure out the pattern with seam allowance.
+- The fabric for the inside: cut a rectangle shape of fabric 20 cm x 18.5 cm.
+- The fabric for the outer side cut a rectangle shape shape of fabric 20 x 20.5 cm.
+    (If the fabric is stretchy, you can make the bottom flap larger. Add the extra length to the 20.5 cm.
+- Cut 4 ribbons of 50 cm each.
+
+[step1]('https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_1.jpg')
 
 ```
-indien je handig genoeg bent met de
-naaimachine, dan mag je deze stap overslaan
-en spelden gebruiken zoals op de foto’s
+Incase you are proficient with using a sewing machine, you can skip this step and use the
+pictures provided as a guideline.
 ```
-- pers de zomen aan de korte zijden naar
-    binnen
-- pers de vouw van de omslag naar binnen^
+
+- Press the seams inward on the short sides
+- Press the seam on the bottom flap inside
 - leg het werkstuk met de goeie kant naar
     boven: zoom en omslag zijn naar de tafel toe
     gekeerd
@@ -172,4 +169,4 @@ en spelden gebruiken zoals op de foto’s
 
 
 # 9. Pattern
-![Pattern](images/peter_v1/pattern.png)
+![Pattern]('https://github.com/MakeInBelgium/naaiactie/blob/translation-english/images/peter_v1/pattern.png')
