@@ -29,6 +29,18 @@ main > section {
 
 #introduction {
     background-image: linear-gradient(to right, #FFF7F3 50%, white 50%) !important;
+
+    .container {
+        position: relative;
+    }
+
+    .fod-approved {
+        position: absolute;
+        bottom: 10px;
+        img {
+            width: 150px;
+        }
+    }
 }
 
 #instructions {
@@ -71,7 +83,7 @@ hr {
 }
 
 hr.light {
-    border-color: #FFF7F3;    
+    border-color: #FFF7F3;
 }
 
 /* catches the overflow from after/before   */
@@ -105,4 +117,17 @@ hr.light {
     -o-transform: rotate(0.000001deg);
     -ms-transform: rotate(0.000001deg);
     transform: rotate(0.000001deg);
+}
+
+.navbar-dark {
+    .navbar-nav {
+       .nav-link {
+            color: rgba(255, 255, 255, 0.9);
+
+            &:hover {
+                transform: scale(1.03);
+                color: white !important;
+            }
+        }
+    }
 }
