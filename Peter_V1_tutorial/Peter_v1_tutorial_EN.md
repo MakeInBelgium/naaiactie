@@ -1,4 +1,4 @@
-## Instructiefiche medisch mondmasker met vervangbare filter
+## Instruction manual medical mask with replaceable filter
 
 ```
 Designed by the community collective Make In Belgium to provide assistance during the COVID-19 crisis.
@@ -44,32 +44,28 @@ Thi model is based on a design by Dr Chen Xiaoting, a Taiwanese anesthetist.
 
 (https://mustsharenews.com/cloth-face-mask/)
 
-# 2. Gebruiksinstructies
+# 2. User Manual
 
-- was je handen alvorens het masker aan te raken^
-- let uitermate goed op bij het aan- en uitdoen, alsook het opbergen van het masker^
-- raak de binnenkant van het masker niet aan, je herkent de binnenkant aan de kleur^
-- gebruik bij voorkeur de uiteinden van de linten om het masker te manipuleren zodat je handen
-    ver van je gezicht blijven
-- plaats eventueel een veiligheidsbril over de bovenrand van het masker zodat dit goed aansluit
-    over de neusbrug
-- draag het masker niet langer dan nodig^
-- indien het mondmasker of de filter nat is: vervangen^
-- berg het masker na gebruik onmiddellijk op in een afgesloten zak of container, laat het niet rond
-    je nek bengelen
-- het mondmasker zo vaak mogelijk steriliseren (minstens éénmaal per dag) door het te wassen
-    op 90°C
+- Wash your hands before touching the mask.
+- Pay attention when putting on or removing the mask from your face.
+- Do not touch the inside of the mask, you can recognize this part by its color.
+- If possible use the mask ribbons to position the mask to avoid having your hands near
+your face.
+- You can optionally place safety glasses over the top edge of the mask to create a good fit around your nose bridge.
+- Do not wear the mask longer then necessary.
+- Replace the filter or mask when wet.
+- Immediately after removing the mask, place it in a sealed sack or container. Do not let it hang around your neck.
+- Sterilise the mask as frequent as possible (Minimally 1/day) by washing it at 90°C
 
+# 3. Intersection
+<!-- needs review -->
 
-# 3. Doorsnede
+# 4. Difficulty level
 
+The pattern is rectangle shaped and fits an A4 paper. It is simple to cutout, however folding the bottom flap may require 
+some dexterity.
 
-# 4. Moeilijkheidsgraad
-
-Het patroon is rechthoekig en past op een standaard blad papier A4. Het is dus eenvoudig om uit
-te snijden. Het vouwen van de plooitjes vergt enige handigheid.
-
-# 5. Maat
+# 5. Size
 
 Het bijgeleverde patroon is geschikt voor een volwassen man, maat L (large).
 
