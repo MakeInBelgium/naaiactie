@@ -1,4 +1,4 @@
-## Instructiefiche medisch mondmasker met vervangbare filter
+## Instruction manual medical mask with replaceable filter
 
 ```
 Designed by the community collective Make In Belgium to provide assistance during the COVID-19 crisis.
@@ -44,143 +44,115 @@ Thi model is based on a design by Dr Chen Xiaoting, a Taiwanese anesthetist.
 
 (https://mustsharenews.com/cloth-face-mask/)
 
-# 2. Gebruiksinstructies
+# 2. User Manual
 
-- was je handen alvorens het masker aan te raken^
-- let uitermate goed op bij het aan- en uitdoen, alsook het opbergen van het masker^
-- raak de binnenkant van het masker niet aan, je herkent de binnenkant aan de kleur^
-- gebruik bij voorkeur de uiteinden van de linten om het masker te manipuleren zodat je handen
-    ver van je gezicht blijven
-- plaats eventueel een veiligheidsbril over de bovenrand van het masker zodat dit goed aansluit
-    over de neusbrug
-- draag het masker niet langer dan nodig^
-- indien het mondmasker of de filter nat is: vervangen^
-- berg het masker na gebruik onmiddellijk op in een afgesloten zak of container, laat het niet rond
-    je nek bengelen
-- het mondmasker zo vaak mogelijk steriliseren (minstens éénmaal per dag) door het te wassen
-    op 90°C
+- Wash your hands before touching the mask.
+- Pay attention when putting on or removing the mask from your face.
+- Do not touch the inside of the mask, you can recognize this part by its color.
+- If possible use the mask ribbons to position the mask to avoid having your hands near
+your face.
+- You can optionally place safety glasses over the top edge of the mask to create a good fit around your nose bridge.
+- Do not wear the mask longer then necessary.
+- Replace the filter or mask when wet.
+- Immediately after removing the mask, place it in a sealed sack or container. Do not let it hang around your neck.
+- Sterilise the mask as frequent as possible (Minimally 1/day) by washing it at 90°C
 
+# 3. Intersection
+<!-- needs review -->
 
-# 3. Doorsnede
+# 4. Difficulty level
 
+The pattern is rectangle shaped and fits an A4 paper. It is simple to cutout, however folding the bottom flap may require 
+some dexterity.
 
-# 4. Moeilijkheidsgraad
+# 5. Size
 
-Het patroon is rechthoekig en past op een standaard blad papier A4. Het is dus eenvoudig om uit
-te snijden. Het vouwen van de plooitjes vergt enige handigheid.
+The attached pattern is suited for a grown male, size L (large).
 
-# 5. Maat
+To make a smaller mask, you can do the following:
 
-Het bijgeleverde patroon is geschikt voor een volwassen man, maat L (large).
+- Narrow the width: L = 20 cm, M = 19 cm, S = 18 cm
+- Shortening the length by shortening the piece between 0.5 and 6.0 from the inside of the mask and the piece between  12.5 and
+ 18.0 from the outside (see pattern) by the same length. Both pieces need to be shortened by the same amount.
+ You can possibly shorten the piece between 14.0 en 18.0 from the inside and between 0.5 en 4.5 by the same length. You can easily achieve 
+ this by drawing over the pattern on the aforementioned places thereafter folding it.
 
-Om een kleinere maat te maken kan je:
-
-- de breedte versmallen: L = 20 cm, M = 19 cm, S = 18 cm
-- de lengte inkorten door het stuk tussen 0.5 en 6.0 van de binnenkant en het stuk tussen 12.5 en
-    18.0 van de buitenkant (zie patroon) met dezelfde afstand in te korten. Dus van beide stukken
-    neem je evenveel weg. Eventueel maak je ook het stuk tussen 14.0 en 18.0 van de binnenkant
-    en tussen 0.5 en 4.5 op dezelfde manier korter. Je kan dit eenvoudig doen door het patroon
-    gewoon over te tekenen en het patroon vervolgens op de hierboven beschreven plaatsen te
-    plooien.
-
-# 6. Materiaal
+# 6. Material
 
 ```
-Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het masker uit
-één lap stof gemaakt worden. Voeg het patroon hiervoor samen waar de middennaad zit.
+To shorten the production process you can use one piece of fabric IF REALLY NEEDED.
+Add the pattern together on the centre seam.
 ```
-- lap stof voor de buitenkant 20 x 20.5 cm. Deze stof moet goed ademen en mag geen vocht
-    absorberen. Gebruik dus bij voorkeur een synthetische stof (polyester) maar ook katoen kan
-    gebruikt worden
-- lap stof voor de binnenkant 20 x 18.5 cm. Ideaal is dit polypropyleen (https://nl.wikipedia.org/
-    wiki/Non-woven) maar ook katoen kan gebruikt worden
-- zorg dat beide lappen een duidelijk verschillende kleur hebben zodat je altijd zeker bent dat je
-    dezelfde kant naar buiten/binnen draagt
-- vermijd stoffen die heel erg rekken omdat het masker dan minder goed zijn vorm zal houden.
-    Stoffen met veel rek zijn ook moeilijker te verwerken onder de naaimachine
-- was de stof eventueel voor zodat je masker niet te veel krimpt bij zijn eerste (hete)
-    sterilisatiebeurt.
-- 4 linten van 50 cm, gebruik geen elastiek tenzij deze bestand is tegen wassen op 90°C^
-- vervangbaar filtermateriaal 17 x 13 cm^
+- Piece of fabric for the outer layer 20 x 20.5 cm. This fabric needs to be able to breathe well whilst not being able to absorb
+fluids. Use by preference a synthetic fabric (polyester), but cotton can also be used.
+- Piece of fabric for the inside layer 20 x 18.5 cm. Ideally this is polypropylene (https://nl.wikipedia.org/wiki/Non-woven) but cotton could also be used.
+- Make sure both pieces of fabric have a clear color differential so you're able to make sure you always wear the correct side on the inside and outside.
+- Avoid fabric that stretches so that the mask retains its shape. Stretchy fabric is also harder to process when using a sewing machine.
+- Preferably wash the fabric before making the mask so it doesn't shrink after washing it.
+- 4 Ribbons of 50 cm, do not use elastic unless it is resistant to washing at 90°C.
+- Replaceable filter material 17 x 13 cm.
+
+# 7. Hygiëne
+
+## ✓ TAKE APPROPRIATE HYGIENIC MEASURES
+
+## ✓ WASH YOUR HANDS
+
+## ✓ TRY STERILISING YOUR SEWING MACHINE AS OFTEN AS POSSIBLE
+
+## ✓ WRASH YOUR HANDS BEFORE CONTINUING WORK
+
+## ✓ WHILST MAKING A MASK WEAR A MASK YOURSELF
 
 
-# 7. Productielijn
+# 8. Work method
 
-- om de productie te versnellen kan er aan de band gewerkt worden door alle stappen
-    afzonderlijk na elkaar voor een aantal maskers te herhalen: bv: snij eerste 10 lappen stof, veertig
-    linten, vervolgens tienmaal het patroon aftekenen, enz. Zo vermijd je om iedere keer van focus
-    en materiaal te moeten wijzigen
-- dit bandwerk kan eventueel verdeeld worden: 1 iemand snijdt, één iemand tekent het patroon
-    over, enz.
-- deze verdeling kan eventueel opgesplitst worden over verschillende locaties:^
+- You don't need to measure out the pattern with seam allowance.
+- The fabric for the inside: cut a rectangle shape of fabric 20 cm x 18.5 cm.
+- The fabric for the outer side cut a rectangle shape shape of fabric 20 x 20.5 cm.
+    (If the fabric is stretchy, you can make the bottom flap larger. Add the extra length to the 20.5 cm.
+- Cut 4 ribbons of 50 cm each.
 
-```
-✓ Pieter levert stof aan Jos^
-✓Jos snijdt stof terwijl zijn dochter van 12 de linten knipt^
-✓Marie komt oppikken en tekent patroon op de stof^
-✓Marie’s vrouw Eva strijkt plooien^
-✓waarna Anna de gestreken stof komt oppikken en naar Mark voert, enzovoorts ...^
-```
-# 8. Hygiëne
-
-## ✓NEEM VOLDOENDE HYGIËNISCHE MAATREGELEN
-
-## ✓WAS JE HANDEN
-
-## ✓PROBEER JE NAAIMACHINE ZO STERIEL MOGELIJK TE MAKEN
-
-## ✓WAS VERVOLGENS OPNIEUW JE HANDEN ALVORENS AAN VERDER
-
-## TE WERKEN
-
-## ✓DRAAG TIJDENS HET MAKEN ZELF EEN MONDMASKER
-
-
-# 9. Werkwijze
-
-- je hoeft de afmetingen van het patroon niet
-    uit te breiden met een naadtoeslag
-- de stof voor de binnenkant: snij een
-    rechthoekige lap stof van 20 x 18.5 cm
-- de stof voor de buitenkant: snij een
-    rechthoekige lap stof van 20 x 20.5 cm
-    (indien de stof eerder slap is dan stijf, dan
-    mag je de omslag langer maken, reken de
-    extra lengte bij de 20.5 cm)
-- knip vier linten van 50 cm
+![step1](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_1.jpg "Step 1")
 
 ```
-indien je handig genoeg bent met de
-naaimachine, dan mag je deze stap overslaan
-en spelden gebruiken zoals op de foto’s
+Incase you are proficient with using a sewing machine, you can skip this step and use the
+pictures provided as a guideline.
 ```
-- pers de zomen aan de korte zijden naar
-    binnen
-- pers de vouw van de omslag naar binnen^
-- leg het werkstuk met de goeie kant naar
-    boven: zoom en omslag zijn naar de tafel toe
-    gekeerd
+
+
+- Press the seams inward on the short sides
+- Press the seam on the bottom flap inside
+- Lay the workpiece right side up: the seam and bottom flap are facing the table
 - vouw de zwarte lijn op de rode lijn volgens
     de blauwe pijl (bv 14.0 cm naar 12.0 cm)
 - herhaal voor ieder paar zwart-rood^
 - pers de vouwen (eventueel één per één)
 
+![step2](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_2.jpg "Step 2")
 
 - gebruik een rechte steek van 3mm^
 - standaard naald en synthetische draad is ok^
 - stik de zomen aan de korte zijde om^
 - stik de omslag vast, stik hierbij in de
     naadtoeslag
+    
+ ![step3](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_3.jpg "Step 3")
+ 
 - stik de plooien eventueel vast in de
     naadtoeslag als je dit makkelijker vindt om
     later de zijnaden dicht te stikken
-
+    
+![step4](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_4.jpg "Step 4")
 
 - leg beide stukken met de goede kant op
     elkaar en stik de middennaad vast
+    
+![step5](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_5.jpg "Step 5")
 - zet aan iedere hoek een lint vast met een
     speld (zie tekening: de linten wijzen naar de
     binnenkant van het patroon)
+    
 
 
 - vouw het masker dicht langs de middennaad
@@ -203,4 +175,5 @@ en spelden gebruiken zoals op de foto’s
 - eventueel vullen met een filter
 
 
-# 10.Patroon
+# 9. Pattern
+![Pattern](https://github.com/MakeInBelgium/naaiactie/blob/translation-english/images/peter_v1/pattern.png "Pattern")

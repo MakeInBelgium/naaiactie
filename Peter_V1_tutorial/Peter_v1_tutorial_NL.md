@@ -29,8 +29,8 @@ Dit masker heeft een stoffen wasbare buitenlaag zodat het hergebruikt kan worden
 
 De focus van het ontwerp ligt op veiligheid:
 
-- een goed aansluitende pasvorm^
-- de mogelijkheid om filtermaterialen van uiteenlopende dikte en densiteit te gebruiken^
+- een goed aansluitende pasvorm
+- de mogelijkheid om filtermaterialen van uiteenlopende dikte en densiteit te gebruiken
 
 Om de verspreiding te bevorderen past het patroon van dit masker past op een A4 blad. Er is dus
 geen speciaal patroonpapier nodig.
@@ -50,15 +50,15 @@ Dit model is gebaseerd op een ontwerp van Dr Chen Xiaoting, een Taiwanese anesth
 
 # 2. Gebruiksinstructies
 
-- was je handen alvorens het masker aan te raken^
-- let uitermate goed op bij het aan- en uitdoen, alsook het opbergen van het masker^
-- raak de binnenkant van het masker niet aan, je herkent de binnenkant aan de kleur^
+- was je handen alvorens het masker aan te raken
+- let uitermate goed op bij het aan- en uitdoen, alsook het opbergen van het masker
+- raak de binnenkant van het masker niet aan, je herkent de binnenkant aan de kleur
 - gebruik bij voorkeur de uiteinden van de linten om het masker te manipuleren zodat je handen
     ver van je gezicht blijven
 - plaats eventueel een veiligheidsbril over de bovenrand van het masker zodat dit goed aansluit
     over de neusbrug
-- draag het masker niet langer dan nodig^
-- indien het mondmasker of de filter nat is: vervangen^
+- draag het masker niet langer dan nodig
+- indien het mondmasker of de filter nat is: vervangen
 - berg het masker na gebruik onmiddellijk op in een afgesloten zak of container, laat het niet rond
     je nek bengelen
 - het mondmasker zo vaak mogelijk steriliseren (minstens éénmaal per dag) door het te wassen
@@ -104,43 +104,24 @@ Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het
     Stoffen met veel rek zijn ook moeilijker te verwerken onder de naaimachine
 - was de stof eventueel voor zodat je masker niet te veel krimpt bij zijn eerste (hete)
     sterilisatiebeurt.
-- 4 linten van 50 cm, gebruik geen elastiek tenzij deze bestand is tegen wassen op 90°C^
-- vervangbaar filtermateriaal 17 x 13 cm^
+- 4 linten van 50 cm, gebruik geen elastiek tenzij deze bestand is tegen wassen op 90°C
+- vervangbaar filtermateriaal 17 x 13 cm
+
+# 7. Hygiëne
+
+## ✓ NEEM VOLDOENDE HYGIËNISCHE MAATREGELEN
+
+## ✓ WAS JE HANDEN
+
+## ✓ PROBEER JE NAAIMACHINE ZO STERIEL MOGELIJK TE MAKEN
+
+## ✓ WAS VERVOLGENS OPNIEUW JE HANDEN ALVORENS AAN VERDER TE WERKEN
+
+## ✓ DRAAG TIJDENS HET MAKEN ZELF EEN MONDMASKER
 
 
-# 7. Productielijn
+# 8. Werkwijze
 
-- om de productie te versnellen kan er aan de band gewerkt worden door alle stappen
-    afzonderlijk na elkaar voor een aantal maskers te herhalen: bv: snij eerste 10 lappen stof, veertig
-    linten, vervolgens tienmaal het patroon aftekenen, enz. Zo vermijd je om iedere keer van focus
-    en materiaal te moeten wijzigen
-- dit bandwerk kan eventueel verdeeld worden: 1 iemand snijdt, één iemand tekent het patroon
-    over, enz.
-- deze verdeling kan eventueel opgesplitst worden over verschillende locaties:^
-
-```
-✓ Pieter levert stof aan Jos^
-✓Jos snijdt stof terwijl zijn dochter van 12 de linten knipt^
-✓Marie komt oppikken en tekent patroon op de stof^
-✓Marie’s vrouw Eva strijkt plooien^
-✓waarna Anna de gestreken stof komt oppikken en naar Mark voert, enzovoorts ...^
-```
-# 8. Hygiëne
-
-## ✓NEEM VOLDOENDE HYGIËNISCHE MAATREGELEN
-
-## ✓WAS JE HANDEN
-
-## ✓PROBEER JE NAAIMACHINE ZO STERIEL MOGELIJK TE MAKEN
-
-## ✓WAS VERVOLGENS OPNIEUW JE HANDEN ALVORENS AAN VERDER
-
-## TE WERKEN
-
-## ✓DRAAG TIJDENS HET MAKEN ZELF EEN MONDMASKER
-
-
-# 9. Werkwijze
 
 - je hoeft de afmetingen van het patroon niet
     uit te breiden met een naadtoeslag
@@ -153,6 +134,8 @@ Om het productie-proces eventueel te versnellen kan INDIEN DAT ECHT NODIG IS het
     extra lengte bij de 20.5 cm)
 - knip vier linten van 50 cm
 
+![step1](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_1.jpg "Step 1")
+
 ```
 indien je handig genoeg bent met de
 naaimachine, dan mag je deze stap overslaan
@@ -160,32 +143,41 @@ en spelden gebruiken zoals op de foto’s
 ```
 - pers de zomen aan de korte zijden naar
     binnen
-- pers de vouw van de omslag naar binnen^
+- pers de vouw van de omslag naar binnen
 - leg het werkstuk met de goeie kant naar
     boven: zoom en omslag zijn naar de tafel toe
     gekeerd
 - vouw de zwarte lijn op de rode lijn volgens
     de blauwe pijl (bv 14.0 cm naar 12.0 cm)
-- herhaal voor ieder paar zwart-rood^
+- herhaal voor ieder paar zwart-rood
 - pers de vouwen (eventueel één per één)
 
+![step2](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_2.jpg "Step 2")
 
-- gebruik een rechte steek van 3mm^
-- standaard naald en synthetische draad is ok^
-- stik de zomen aan de korte zijde om^
+- gebruik een rechte steek van 3mm
+- standaard naald en synthetische draad is ok
+- stik de zomen aan de korte zijde om
 - stik de omslag vast, stik hierbij in de
     naadtoeslag
+    
+![step3](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_3.jpg "Step 3")
+
 - stik de plooien eventueel vast in de
     naadtoeslag als je dit makkelijker vindt om
     later de zijnaden dicht te stikken
 
+![step4](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_4.jpg "Step 4")
 
 - leg beide stukken met de goede kant op
     elkaar en stik de middennaad vast
+    
+![step5](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_5.jpg "Step 5")
+
 - zet aan iedere hoek een lint vast met een
     speld (zie tekening: de linten wijzen naar de
     binnenkant van het patroon)
 
+![step6](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_6.jpg "Step 6")
 
 - vouw het masker dicht langs de middennaad
     (alsof het een boterham is) zodanig dat de
@@ -202,9 +194,13 @@ en spelden gebruiken zoals op de foto’s
     begin en einde een kort stukje vooruit-
     achteruit-vooruit te naaien zodat de draad
     zichzelf vast trekt
+    
+![step7](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_7.jpg "Step 7")
 - draai het masker binnenstebuiten langs de
     open kant (waar de zoom en omslag zitten)
 - eventueel vullen met een filter
 
+[![step9](https://github.com/MakeInBelgium/naaiactie/blob/master/images/peter_v1/stap_9.jpg "Step 9")]
 
-# 10.Patroon
+
+# 9.Patroon
