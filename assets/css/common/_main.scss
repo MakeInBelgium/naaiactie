@@ -68,36 +68,3 @@ hr {
 hr.light {
     border-color: #FFF7F3;
 }
-
-/* catches the overflow from after/before   */
-.big-triangle-wrapper {
-    overflow: hidden;
-}
-
-/* big triangle */
-.big-triangle:before {
-    right: 50%;
-    border-right: 100vw solid transparent;
-    border-left: 100vw solid;
-}
-
-.big-triangle:after {
-    left: 50%;
-    border-left: 100vw solid transparent;
-    border-right: 100vw solid;
-}
-
-.big-triangle:after, .big-triangle:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 50%;
-    z-index: 10;
-/*  change the hieght and the color below */
-    border-bottom: 300px solid #FFF7F3;
-    -moz-transform: rotate(0.000001deg);
-    -webkit-transform: rotate(0.000001deg);
-    -o-transform: rotate(0.000001deg);
-    -ms-transform: rotate(0.000001deg);
-    transform: rotate(0.000001deg);
-}
