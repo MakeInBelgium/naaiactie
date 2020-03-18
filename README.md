@@ -52,13 +52,13 @@ De css wordt gegenereerd met bootstrap in de npm dependencies, dit kan via het c
 **Dev (met auto refresh)**
 
 ```
-scss --watch style.scss:style.css
+scss --watch assets/css/style.scss assets/css/style.css
 ```
 
 **Prod (voor een push)**
 
 ```
-scss --style compressed style.scss style.css
+scss --style compressed assets/css/style.scss assets/css/style.css
 ```
 
 # PDF met handleiding + patroon
