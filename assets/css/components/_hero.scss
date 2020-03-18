@@ -1,0 +1,107 @@
+#hero {
+    margin-top: $navbar-padding-y*3;
+
+    .container {
+        max-width: none;
+    }
+
+    header {
+        max-width: 450px;
+    }
+
+    .column-section {
+        @extend %section-padding;
+    }
+
+    .hero-bg {
+        background: $light-orange url(../img/hero-bg.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .main-graphic {
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {      
+        .column-section {
+            max-width: map-get($container-max-widths, sm) - $grid-gutter-width/2;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .stamp-of-approval {
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            text-align: center;
+            bottom: 0;
+            transform: translateY(50%);
+            margin: 0;
+            margin-left: -15px;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        background-image: linear-gradient(to right, $white 50%, $light-orange 50%);
+        
+        .column-section {
+            max-width: (map-get($container-max-widths, md) / 2) - $grid-gutter-width;
+            
+            &.left {
+                margin-left: auto;
+            }
+
+            &.right {
+                margin-right: auto;
+            }
+        }
+
+        .stamp-of-approval {
+            position: absolute;
+            z-index: 1;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            transform: translateX(50%) translateY(-50%);
+        }
+    }
+
+    @include media-breakpoint-up(lg) {       
+        .column-section {
+            max-width: (map-get($container-max-widths, lg) / 2) - $grid-gutter-width;
+            
+            &.left {
+                margin-left: auto;
+                padding-right: $grid-gutter-width*2;
+            }
+
+            &.right {
+                margin-right: auto;
+                padding-left: $grid-gutter-width*2;
+            }
+        }
+
+
+        .stamp-of-approval img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {       
+        .column-section {
+            max-width: (map-get($container-max-widths, xl) / 2) - $grid-gutter-width;
+        }
+    }
+
+    @include media-breakpoint-up(xxl) {       
+        .column-section {
+            max-width: (map-get($container-max-widths, xxl) / 2) - $grid-gutter-width;
+        }
+    }
+}

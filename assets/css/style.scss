@@ -1,4 +1,16 @@
-@import "variables";
+/* Variables */
+@import "common/variables";
+
+/* Dependencies */
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-@import "main";
+/* Common */
+@import "common/main";
+@import "common/section";
+@import "common/type";
+
+/* Components */
+@import "components/navbar";
+@import "components/hero";
+@import "components/tip-grid";
+@import "components/buttons";

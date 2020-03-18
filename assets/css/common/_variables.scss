@@ -1,0 +1,80 @@
+/** colors **/
+$black: #000;
+$white: #fff;
+$orange: #ff5d47;
+$dark: #13132d;
+$blue: #a5d6d7;
+$light-orange: #fff7f3;
+
+$theme-colors: (
+  primary: $orange,
+  secondary: $blue,
+  light: $light-orange
+);
+
+$body-color: $dark;
+
+/** container sizes **/
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1540px
+);
+
+/** Spacings **/
+$spacing-sm: 4rem;
+$spacing-md: 6rem;
+$spacing-lg: 8rem;
+
+/** Navbar settings **/
+$navbar-dark-color: rgba($white, 0.75);
+$navbar-dark-hover-color: rgba($white, 0.85);
+$navbar-dark-active-color: $white;
+$navbar-dark-disabled-color: rgba($white, 0.5);
+$navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+$navbar-dark-toggler-border-color: rgba($white, 0.1);
+$navbar-padding-y: 1.5rem;
+
+/** Fonts **/
+$font-size-base: 1.15rem;
+$line-height-base: 1.65;
+
+
+/** headings **/
+$headings-font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$heading-font-weight: 700;
+$headings-margin-bottom: 2em;
+
+
+/**
+H1 Upgrade bold 60pt #13132D
+H2 Upgrade medium 26pt #FF5D47
+H3 Upgrade regular 22pt #FF5D47
+H4 Upgrade regular 22pt #13132D
+**/
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+/** Buttons **/
+$input-btn-padding-x: 1.25rem;
+$input-btn-padding-x-lg: 1.75rem;
+
+/** Misc **/
+$enable-rounded: false;
