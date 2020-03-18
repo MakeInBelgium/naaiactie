@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirect WWW to non-WWW: maakjemondmasker.be
+RewriteCond %{HTTP_HOST} ^www.maakjemondmasker.be [NC]
+RewriteRule ^(.*)$ https://maakjemondmasker.be/$1 [L,R=301]
+
+# Redirect WWW to non-WWW: faitesvotremasquebuccal.be
+RewriteCond %{HTTP_HOST} ^www.faitesvotremasquebuccal.be [NC]
+RewriteRule ^(.*)$ https://faitesvotremasquebuccal.be/$1 [L,R=301]
