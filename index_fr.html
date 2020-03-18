@@ -43,13 +43,9 @@
 
 <body data-spy="scroll" data-target="#primaryNavigation" data-offset="100">
   <!-- navbar -->
-  <nav id="primaryNavigation" class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+  <nav id="primaryNavigation" class="navbar navbar-expand-md navbar-dark bg-primary sticky-top">
     <div class="container">
       <a class="navbar-brand" href="/">faitesvotremasquebuccal</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
-        aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
       <div class="collapse navbar-collapse" id="navContent">
         <ul class="navbar-nav">
@@ -73,6 +69,21 @@
           </li>
         </ul>
       </div>
+
+      <div class="dropdown ml-auto mr-2 mx-lg-0">
+        <button class="btn btn-sm btn-outline-light dropdown-toggle border-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Choisissez votre langue">
+          FR
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item small" href="https://maakjemondmasker.be">maakjemondmasker.be</a>
+          <a class="dropdown-item small" href="https://faitesvotremasquebuccal.be">faitesvotremasquebuccal.be</a>
+        </div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+              aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
   </nav>
   <!-- Page Content -->
@@ -81,9 +92,9 @@
       <div class="row">
         <div class="col-md-6">
           <article class="column-section left">
-            <header class="heading-byline" style="max-width: 460px">
+            <header class="heading-byline">
               <h1>Fabriquez un masque buccal</h1>
-              <span class="h5 text-primary">Ne laissez pas étouffer nos soignants ! </span>
+              <span class="h5 text-primary">Ne laissez pas étouffer nos soignants&nbsp;! </span>
             </header>
             <main>
               <p>
@@ -310,17 +321,18 @@
     <div class="container text-center">
       <h2 class="h1">Soyez solidaires</h2>
       <h3 class="h2">partagez vos photos avec</h3>
-      <p><strong class="font-large">#makemondmasker</strong></p>
+      <p><strong class="font-large">#faitesvotremasquebuccal</strong></p>
       <p class="my-5 text-primary font-large font-weight-bold">Mettez-vous au travail avec le modèle</p>
       <p><a class="btn btn-primary btn-lg" href="pdf/NL_mondmasker Peter V1_HANDLEIDING.pdf" target="_blank">Téléchargez modèle &amp; procédure</a></p>
     </div>
   </section>
 
   <section id="footer" class="navbar navbar-expand-md bg-primary navbar-dark">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav w-100">
       <li class="nav-item"><a class="nav-link" href="https://www.coronadenktank.be/"><img src="assets/coronadenktank.lamp.svg" width="30"> Coronadenktank.be</a>
       <li class="nav-item"><a class="nav-link" href="https://twitter.com/coronadenktank"><img src="assets/twitter.svg" width="30"> Coronadenktank sur Twitter</a>
-      <li class="nav-item"><a class="nav-link" href="https://github.com/MakeInBelgium"><img src="assets/github.svg" width="30"> Coronadenktank sur GitHub</a>
+      <li class="nav-item mr-auto"><a class="nav-link" href="https://github.com/MakeInBelgium"><img src="assets/github.svg" width="30"> Coronadenktank sur GitHub</a>
+      <li class="nav-item"><strong><a class="nav-link" href="disclaimer_fr.html">Disclaimer</a></strong>
     </ul>
   </section>
 
