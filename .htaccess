@@ -8,6 +8,10 @@ RewriteRule ^(.*)$ https://maakjemondmasker.be/$1 [L,R=301]
 RewriteCond %{HTTP_HOST} ^www.faitesvotremasquebuccal.be [NC]
 RewriteRule ^(.*)$ https://faitesvotremasquebuccal.be/$1 [L,R=301]
 
+# Redirect WWW to non-WWW: makefacemasks.com
+RewriteCond %{HTTP_HOST} ^www.makefacemasks.com [NC]
+RewriteRule ^(.*)$ https://makefacemasks.com/$1 [L,R=301]
+
 # Redirect old filename for Dutch disclaimer
 RewriteRule disclaimer.html disclaimer_nl.html [R=301,L]
 
