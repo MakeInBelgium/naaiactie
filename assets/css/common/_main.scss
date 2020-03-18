@@ -10,21 +10,6 @@ main {
     min-height: 700px;
 }
 
-main > section {
-    position: relative;
-}
-
-.step-number {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 5rem;
-    font-weight: bold;
-    display: block;
-    padding: 2rem;
-    z-index: 20;
-}
-
 #introduction {
     background-image: linear-gradient(to right, #FFF7F3 50%, white 50%) !important;
 
