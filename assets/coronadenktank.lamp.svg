@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Custom Preset 14 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Custom-Preset-14-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#7242E3" transform="translate(200.000000, 200.000000) scale(-1, 1) translate(-200.000000, -200.000000) " x="0" y="0" width="400" height="400"></rect>
+        <g id="Group" transform="translate(59.000000, 68.000000)">
+            <ellipse id="Oval" stroke="#FFFFFF" stroke-width="4" cx="140.166379" cy="249.5" rx="14.3386581" ry="14.5"></ellipse>
+            <ellipse id="Oval" stroke="#FFFFFF" stroke-width="4" cx="140.166379" cy="98.5" rx="98.6837061" ry="98.5"></ellipse>
+            <path d="M127.979387,208 L127.979387,117.788293 C127.979387,107.411805 119.567582,99 109.191094,99 L107.396267,99 C98.011035,99 90.402801,106.608234 90.402801,115.993466 L90.402801,115.993466 C90.402801,125.378699 98.011035,132.986933 107.396267,132.986933 L142.739771,132.986933" id="Path-4" stroke="#FFFFFF" stroke-width="4"></path>
+            <path d="M174.369163,208 L174.369163,117.788293 C174.369163,107.411805 165.957358,99 155.58087,99 L153.786044,99 C144.400811,99 136.792577,106.608234 136.792577,115.993466 L136.792577,115.993466 C136.792577,125.378699 144.400811,132.986933 153.786044,132.986933 L189.129547,132.986933" id="Path-4-Copy" stroke="#FFFFFF" stroke-width="4" transform="translate(162.961062, 153.500000) scale(-1, 1) translate(-162.961062, -153.500000) "></path>
+            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="4" fill="#7242E3" x="83.9682962" y="190" width="113.239617" height="27" rx="13.5"></rect>
+            <rect id="Rectangle-Copy" stroke="#FFFFFF" stroke-width="4" fill="#7242E3" x="83.9682962" y="218" width="113.239617" height="28" rx="14"></rect>
+            <path d="" id="Path-3" stroke="#979797" stroke-width="3"></path>
+            <path d="M256.408946,95.5 L282.599839,95.5" id="Path-5" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+            <path d="M-3.48165941e-13,99.5 L26.1908932,99.5" id="Path-5-Copy" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" transform="translate(13.095447, 99.500000) scale(1, -1) translate(-13.095447, -99.500000) "></path>
+            <path d="M246.652002,53 L269.333981,40" id="Path-5-Copy-2" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+            <path d="M7.95551662,47 L30.6374955,60" id="Path-5-Copy-4" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+            <path d="M246.739344,139 L265.259103,157" id="Path-5-Copy-3" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+            <path d="M13.9470121,157 L32.4667703,139" id="Path-5-Copy-5" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
