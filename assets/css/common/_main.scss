@@ -1,38 +1,9 @@
 body, html {
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .heading-byline {
     margin-bottom: $spacing-md;
-}
-
-.instruction-list {
-    article {
-        margin-bottom: 2rem;
-        text-align: center;
-    }
-
-    article figure {
-        padding: 2rem;
-    }
-}
-
-#precautions {
-    padding-bottom: 150px;
-}
-
-#call-to-action {
-    padding-top: 100px;
-}
-
-hr {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    border: 0;
-    border-bottom: 25px solid #ff5d47;
-    width: 80%;
-}
-
-hr.light {
-    border-color: #FFF7F3;
 }
