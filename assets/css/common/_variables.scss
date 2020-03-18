@@ -15,13 +15,27 @@ $theme-colors: (
 $body-color: $dark;
 
 /** container sizes **/
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px
+);
+
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1240px
+  xxl: 1540px
 );
+
+/** Spacings **/
+$spacing-sm: 4rem;
+$spacing-md: 6rem;
+$spacing-lg: 8rem;
 
 /** Navbar settings **/
 $navbar-dark-color: rgba($white, 0.75);
@@ -30,6 +44,7 @@ $navbar-dark-active-color: $white;
 $navbar-dark-disabled-color: rgba($white, 0.5);
 $navbar-dark-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 $navbar-dark-toggler-border-color: rgba($white, 0.1);
+$navbar-padding-y: 1.5rem;
 
 /** Fonts **/
 $font-size-base: 1.15rem;

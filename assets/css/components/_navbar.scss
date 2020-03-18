@@ -18,17 +18,5 @@ nav.navbar {
             flex-wrap: wrap;
             justify-content: space-around;
         }  
-
-        // make them a tiny bit smaller
-        .nav-item {
-            font-size: 0.9rem;
-        }  
-    }
-
-    @include media-breakpoint-up(lg) {
-        // normal size on larger viewports
-        .nav-item {
-            font-size: 1rem;
-        }  
     }
 }

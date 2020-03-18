@@ -2,42 +2,6 @@ body, html {
     height: 100%;
 }
 
-.cta-box {
-    max-width: 400px;
-}
-
-main {
-    min-height: 700px;
-}
-
-#introduction {
-    background-image: linear-gradient(to right, #FFF7F3 50%, white 50%) !important;
-
-    .container {
-        position: relative;
-    }
-
-    .fod-approved {
-        position: absolute;
-        bottom: 10px;
-        img {
-            width: 150px;
-        }
-    }
-}
-
-#instructions {
-    & > h2 {
-        font-size: 5rem;
-        // position: absolute;
-        // bottom: 5rem;
-        // left: 0;
-        // font-weight: bold;
-        // display: block;
-        // padding: 2rem;
-    }
-}
-
 .instruction-list {
     article {
         margin-bottom: 2rem;
