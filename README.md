@@ -60,3 +60,11 @@ scss --watch style.scss:style.css
 ```
 scss --style compressed style.scss style.css
 ```
+
+# PDF met handleiding + patroon
+Je kan de verschillende versies van de patronen vinden in de /pdf folder.
+Bij het aanpassen van de huidige versie van een patroon best volgende stappen doorlopen:
+
+* Voeg versienummer en eventueel datum toe aan de naam van het document
+* Zorg ervoor dat de grootte van het document zeker kleiner is dan 1 MB (om onze bandbreedte te vrijwaren). Haal daarom je versie altijd nog eens door de website http://www.pdfcompressor.be
+* Er zijn al problemen geweest met Adobe Reader. Probeer zeker af te checken of je nieuwe PDF ook daarin goed te lezen valt.
