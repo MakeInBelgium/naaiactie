@@ -56,7 +56,7 @@ $headings-font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $heading-font-weight: 700;
-$headings-margin-bottom: 2em;
+$headings-margin-bottom: 1em;
 
 
 /**
@@ -78,3 +78,4 @@ $input-btn-padding-x-lg: 1.75rem;
 
 /** Misc **/
 $enable-rounded: false;
+$enable-responsive-font-sizes: true;
