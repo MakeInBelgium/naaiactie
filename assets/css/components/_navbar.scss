@@ -2,6 +2,7 @@ nav.navbar {
     // Brand is uppercase
     .navbar-brand {
         text-transform: uppercase;
+        font-weight: bold;
     }
 
     // Link items are lowercase
@@ -16,7 +17,7 @@ nav.navbar {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
-        }  
+            justify-content: space-evenly;
+        }
     }
 }
