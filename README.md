@@ -9,10 +9,12 @@ Bijdrage leveren? Dat kan!
 Site is beschikbaar in 2 verschillende talen:
 - NL: https://maakjemondmasker.be/
 - FR: https://faitesvotremasquebuccal.be/
+- EN: https://makefacemasks.com/
 
 Het is een *onepager* en iedere taal heeft zn eigen index bestand:
 - index_nl.html
 - index_fr.html
+- index_en.html
 
 De website wordt gehost bij cloudz.be. Daar draait een script dat iedere 5 minuten een `git pull` doet van deze repo.
 Hou er rekening mee dat Cloudflare alles cached. Bij een update moet de cached geïnvalideerd worden.
