@@ -11,6 +11,11 @@
   <meta name="title" content="maakjemondmasker.be">
   <meta name="description" content="😷 MAAK EEN MONDMASKER 😷 Laat onze zorgverleners niet stikken! Om de strijd tegen #COVID19BE te winnen, hebben ze dringend nood aan mondmaskers. Maar die zijn bijna uitgeput.">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicon/site.webmanifest">
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://maakjemondmasker.be/">
@@ -27,47 +32,39 @@
 
   <!-- Bootstrap core CSS -->
   <link href="./assets/css/style.css?v{VERSION}" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
-    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/images/favicon/site.webmanifest">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=optional" rel="stylesheet">
 </head>
 
 <body>
+  <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="/">Naaiactie</a>
+      <a class="navbar-brand" href="/">maakjemondmasker</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
         aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav">
           <!--<li class="nav-item active">-->
           <li class="nav-item">
             <a class="nav-link" href="#">Concept <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Instructies</a>
+            <a class="nav-link" href="#">Doneertips</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Doorsnede</a>
+            <a class="nav-link" href="#">Draagtips</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Maat</a>
+            <a class="nav-link" href="#">Veelgestelde vragen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Materiaal</a>
+            <a class="nav-link" href="#">Maaktips</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Hygiëne</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Werkwijze</a>
+            <a class="nav-link" href="#">Deel en Download</a>
           </li>
         </ul>
       </div>
@@ -79,10 +76,12 @@
     <section id="introduction">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6 py-5 pr-5 bg-light d-flex justify-content-end">
+          <div class="col-md-6">
             <div class="my-5">
-              <h2>MAAK EEN MONDMASKER 😷</h2>
-              <h3>Laat onze zorgverleners niet stikken!</h3>
+              <header>                
+                <h1>Maak een mondmasker 😷</h1>
+                <span class="byline">Laat onze zorgverleners niet stikken!</span>
+              </header>
               <p>Onze zorgverleners hebben je nodig! Om de strijd tegen #COVID19BE te winnen, hebben ze dringend nood aan mondmaskers.
                 Maar die zijn bijna uitgeput. Wij bezorgen hen alvast een back-up plan, met onze zelfgemaakte maskers. Wij laten onze
                 zorgverleners niet stikken. Dat doen wij in hun plaats. Handmade. With love. ❤️</p>
@@ -101,7 +100,7 @@
  
           <div class="col-md-6">
             <figure class="main-graphic">
-              <img src="assets/Hero_image.png" alt="Mondmasker with Love"/>
+              <!-- <img src="assets/Hero_image.png" alt="Mondmasker with Love"/> -->
               <!-- <img src="assets/naaiactie-ILLUSTRATIE-02.svg" alt="Mondmasker with Love"/> -->
             </figure>
           </div>
@@ -329,15 +328,8 @@
     </section>
   </main>
 
-  <!-- jQuery JavaScript -->
-  <script src="./vendor/jquery/jquery.slim.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Praatbox script -->
-  <script src="./assets/app.js?v{VERSION}"></script>
-
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://googletagmanager.com/gtag/js?id=UA-52249571-4"></script>
+  <!-- <script async src="https://googletagmanager.com/gtag/js?id=UA-52249571-4"></script> -->
   <!-- <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }

@@ -1,0 +1,34 @@
+nav.navbar {
+    // Brand is uppercase
+    .navbar-brand {
+        text-transform: uppercase;
+    }
+
+    // Link items are lowercase
+    .nav-item {
+        text-transform: lowercase;            
+        font-weight: 700;
+    }
+
+    @include media-breakpoint-up(md) {
+        // spread out nav items
+        .navbar-nav {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }  
+
+        // make them a tiny bit smaller
+        .nav-item {
+            font-size: 0.9rem;
+        }  
+    }
+
+    @include media-breakpoint-up(lg) {
+        // normal size on larger viewports
+        .nav-item {
+            font-size: 1rem;
+        }  
+    }
+}

@@ -1,7 +1,5 @@
 body, html {
     height: 100%;
-    font-family: upgrade, sans-serif;
-    font-style: normal;
 }
 
 .cta-box {
@@ -117,17 +115,4 @@ hr.light {
     -o-transform: rotate(0.000001deg);
     -ms-transform: rotate(0.000001deg);
     transform: rotate(0.000001deg);
-}
-
-.navbar-dark {
-    .navbar-nav {
-       .nav-link {
-            color: rgba(255, 255, 255, 0.9);
-
-            &:hover {
-                transform: scale(1.03);
-                color: white !important;
-            }
-        }
-    }
 }
