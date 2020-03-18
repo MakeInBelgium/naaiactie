@@ -1,10 +1,6 @@
-/** Section **/
-#hero,
-body > section {
-    .container {
-        padding-top: $spacing-sm;
-        padding-bottom: $spacing-sm;
-    }
+%section-padding {
+    padding-top: $spacing-sm;
+    padding-bottom: $spacing-sm;
 
     @include media-breakpoint-up(sm) {
         padding-top: $spacing-md;
@@ -15,4 +11,9 @@ body > section {
         padding-top: $spacing-lg;
         padding-bottom: $spacing-lg;
     }
+}
+
+/** Section **/
+section .container {
+    @extend %section-padding;
 }

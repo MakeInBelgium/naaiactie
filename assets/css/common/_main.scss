@@ -2,6 +2,10 @@ body, html {
     height: 100%;
 }
 
+.heading-byline {
+    margin-bottom: $spacing-md;
+}
+
 .instruction-list {
     article {
         margin-bottom: 2rem;

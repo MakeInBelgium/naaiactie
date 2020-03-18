@@ -48,12 +48,16 @@ $navbar-padding-y: 1.5rem;
 
 /** Fonts **/
 $font-size-base: 1.15rem;
+$line-height-base: 1.65;
+
 
 /** headings **/
 $headings-font-family: "Montserrat", -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $heading-font-weight: 700;
+$headings-margin-bottom: 2em;
+
 
 /**
 H1 Upgrade bold 60pt #13132D
@@ -68,4 +72,9 @@ $h4-font-size: $font-size-base * 1.5;
 $h5-font-size: $font-size-base * 1.25;
 $h6-font-size: $font-size-base;
 
+/** Buttons **/
+$input-btn-padding-x: 1.25rem;
+$input-btn-padding-x-lg: 1.75rem;
+
+/** Misc **/
 $enable-rounded: false;

@@ -17,6 +17,17 @@ nav.navbar {
             width: 100%;
             display: flex;
             flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        // spread out nav items
+        .navbar-nav {
+            width: 100%;
+            max-width: 900px;
+            margin-left: auto;
+            display: flex;
             justify-content: space-evenly;
         }
     }
