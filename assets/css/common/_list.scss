@@ -1,0 +1,19 @@
+.list-numbered {
+    counter-reset: number;
+
+    > ::before {
+        counter-increment: number;
+        content: counter(number);
+        text-align: center;
+        font-size: 6.5rem;
+        font-family: serif;
+        font-weight: 700;
+        color: $orange;
+        width: 1.5em;
+        line-height: 1.5em;
+        border-radius: 50%;
+        background: white;
+        display: table;
+        margin: 0 auto 2rem;
+    }
+}
