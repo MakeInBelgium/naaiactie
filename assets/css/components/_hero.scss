@@ -1,6 +1,4 @@
 #hero {
-    margin-top: $navbar-padding-y*3;
-
     .container {
         max-width: none;
     }
@@ -27,7 +25,7 @@
         }
     }
 
-    @include media-breakpoint-down(sm) {      
+    @include media-breakpoint-down(sm) {
         .column-section {
             max-width: map-get($container-max-widths, sm) - $grid-gutter-width/2;
             margin-left: auto;
@@ -48,10 +46,10 @@
 
     @include media-breakpoint-up(md) {
         background-image: linear-gradient(to right, $white 50%, $light-orange 50%);
-        
+
         .column-section {
             max-width: (map-get($container-max-widths, md) / 2) - $grid-gutter-width;
-            
+
             &.left {
                 margin-left: auto;
             }
@@ -71,10 +69,10 @@
         }
     }
 
-    @include media-breakpoint-up(lg) {       
+    @include media-breakpoint-up(lg) {
         .column-section {
             max-width: (map-get($container-max-widths, lg) / 2) - $grid-gutter-width;
-            
+
             &.left {
                 margin-left: auto;
                 padding-right: $grid-gutter-width*2;
@@ -93,13 +91,13 @@
         }
     }
 
-    @include media-breakpoint-up(xl) {       
+    @include media-breakpoint-up(xl) {
         .column-section {
             max-width: (map-get($container-max-widths, xl) / 2) - $grid-gutter-width;
         }
     }
 
-    @include media-breakpoint-up(xxl) {       
+    @include media-breakpoint-up(xxl) {
         .column-section {
             max-width: (map-get($container-max-widths, xxl) / 2) - $grid-gutter-width;
         }
