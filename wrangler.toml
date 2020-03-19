@@ -1,0 +1,10 @@
+name = "naaiactie"
+type = "webpack"
+account_id = "92a396707b875e7e9eb678ad6cef6e48"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./website"
+entry-point = "workers-site"

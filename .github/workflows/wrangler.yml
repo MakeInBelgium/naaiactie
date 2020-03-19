@@ -1,0 +1,24 @@
+# This workflow will deploy the Cloudflare Worker using wrangler
+# For more information see: https://github.com/cloudflare/wrangler-action
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+      - mh-cloudflare
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@master
+      - name: Publish
+        uses: cloudflare/wrangler-action@1.1.0
+        with:
+          apiKey: 9c56047583875706a14ad38f3280bf381c452
+          email: tech@coronadenktank.be
+#        with:
+#          apiToken: ${{ secrets.CF_API_TOKEN }}
+#          apiToken: YmH6ZW4gfupLHKoneIsC-PWy_4T0JTmiqMq9cetw

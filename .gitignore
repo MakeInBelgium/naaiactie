@@ -2,3 +2,6 @@
 .idea
 node_modules/
 assets/css/.sass-cache
+
+# Cloudflare Wrangler
+dist/
