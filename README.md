@@ -1,28 +1,17 @@
 # Naaiactie
 
 Bijdrage leveren? Dat kan!
-* Maak een fork en een pull request.
+* Maak een fork (of branch) en een pull request.
 * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).
+* **NOOIT** rechtstreeks op `master` pushen.
 
-## Deployment
+Het is een eenvoudige statische website in 3 verschillende talen. Iedere taal heeft zn eigen *subfolder* voor de HTML 
+bestanden. The CSS is voor alle sites hetzelfde (zie [CSS](#css)). 
 
-Site is beschikbaar in 2 verschillende talen:
-- NL: https://maakjemondmasker.be/
-- FR: https://faitesvotremasquebuccal.be/
-- EN: https://makefacemasks.com/
-
-Het is een *onepager* en iedere taal heeft zn eigen index bestand:
-- index_nl.html
-- index_fr.html
-- index_en.html
-
-De website wordt gehost bij cloudz.be. Daar draait een script dat iedere 5 minuten een `git pull` doet van deze repo.
-Hou er rekening mee dat Cloudflare alles cached. Bij een update moet de cached geïnvalideerd worden.
-
-```bash
-# Stuur je public key naar @iworx
-ssh coronade@da-2.cloudz.be
-```
+Site is beschikbaar in 3 verschillende talen:
+- NL ([website/html/BE_nl/](website/html/BE_nl/)): https://maakjemondmasker.be/
+- FR ([website/html/BE_fr/](website/html/BE_fr/)): https://faitesvotremasquebuccal.be/
+- EN ([website/html/en/](website/html/en/)): https://makefacemasks.com/
 
 ## Kom er bij!
 Neem dan deel aan de conversatie op de Slack workspace van de Corona-denktank Make in Belgium: https://join.coronadenktank.be (Kanaal: #project-corona-naaiactie-dev).
@@ -32,13 +21,22 @@ Neem dan deel aan de conversatie op de Slack workspace van de Corona-denktank Ma
 Zelf een lokale server opzetten? Dat kan op verschillende manieren!
 
 ## met python
-Eenvoudig lokaal previewen met het terminal-commando: `python3 -m http.server 8000` (of `python -m http.server 8000` als python 3 je standaardpython is)
+Eenvoudig lokaal previewen met het terminal-commando:
+
+```
+$> cd website
+$> python3 -m http.server 8000
+$>
+$> # Als python 3 je standaardpython is
+$> python -m http.server 8000
+```
 De Naaiactie is vervolgens bereikbaar op `http://localhost:8000`
 
 ## met php
 Heb je php op je computer geïnstalleerd? Gebruik dan de PHP built-in webserver:
 
 ```
+$> cd website
 $> php -S 0.0.0.0:8000
 ```
 
@@ -49,19 +47,30 @@ Gebruik de `Dockerfile` om een image te builden. Zie `docker-run.sh` voor een vo
 
 
 # CSS
-De css wordt gegenereerd met bootstrap in de npm dependencies, dit kan via het commando `npm ci`. Vervolgens kan je in de map `assets/css` met [SCSS](https://sass-lang.com/) de SCSS converteren naar CSS:
+De css wordt gegenereerd met bootstrap in de npm dependencies, dit kan via het commando `npm ci`. Vervolgens kan je in de map `website/assets/css` met [SCSS](https://sass-lang.com/) de SCSS converteren naar CSS:
 
 **Dev (met auto refresh)**
 
 ```
-scss --watch assets/css/style.scss assets/css/style.css
+scss --watch website/assets/css/style.scss website/assets/css/style.css
 ```
 
 **Prod (voor een push)**
 
 ```
-scss --style compressed assets/css/style.scss assets/css/style.css
+scss --style compressed website/assets/css/style.scss website/assets/css/style.css
 ```
+
+## Deployment
+
+De verschillende websites worden volledig gehost via [Cloudflare](https://www.cloudflare.com/) 
+en [Cloudflare Worker Sites](https://workers.cloudflare.com/sites). Telkens er naar `master` wordt gepushed wordt de 
+*worker* opnieuw ge-upload naar Cloudflare. Er is geen *cache invalidatie* nodig. *Cloudflare Worker Sites* zijn slim 
+genoeg. Je kan alle talen centraal bekijken op https://naaiactie.mib.workers.dev/.
+
+More info over workers:
+* https://workers.cloudflare.com/sites
+* https://developers.cloudflare.com/workers/tooling/wrangler/install/
 
 # PDF met handleiding + patroon
 Je kan de verschillende versies van de patronen vinden in de /pdf folder.

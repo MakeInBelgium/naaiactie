@@ -8,7 +8,7 @@ ENV vcsref=$vcsref
 ARG DOMAIN=maakjemondmasker.be
 ENV DOMAIN=$DOMAIN
 
-COPY . /usr/share/nginx/html
+COPY ./website /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
 
