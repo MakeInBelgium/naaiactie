@@ -18,4 +18,4 @@ jobs:
         uses: cloudflare/wrangler-action@1.1.0
         with:
 #          apiToken: ${{ secrets.CF_API_TOKEN }}
-          apiToken: 9c56047583875706a14ad38f3280bf381c452
+          apiToken: YmH6ZW4gfupLHKoneIsC-PWy_4T0JTmiqMq9cetw
