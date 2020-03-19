@@ -1,14 +1,12 @@
 nav.navbar {
     // Brand is uppercase
     .navbar-brand {
-        text-transform: uppercase;
-        font-weight: bold;
+        line-height: 1;
+        flex: 1 1 0%;
     }
 
-    // Link items are lowercase
     .nav-item {
-        text-transform: lowercase;            
-        font-weight: 700;
+        font-weight: 600;
     }
 
     @include media-breakpoint-up(md) {
