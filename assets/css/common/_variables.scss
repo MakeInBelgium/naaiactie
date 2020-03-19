@@ -38,6 +38,8 @@ $spacing-md: 6rem;
 $spacing-lg: 8rem;
 
 /** Navbar settings **/
+$navbar-brand-padding-y: 0;
+$navbar-brand-font-size: 1.25rem;
 $navbar-dark-color: rgba($white, 0.75);
 $navbar-dark-hover-color: rgba($white, 0.85);
 $navbar-dark-active-color: $white;
