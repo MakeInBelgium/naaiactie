@@ -1,7 +1,7 @@
 # Naaiactie
 
 Bijdrage leveren? Dat kan!
-* Maak een fork (of branch) en een pull request.
+* Maak een fork (of branch) en een pull request (zie lager)
 * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).
 * **NOOIT** rechtstreeks op `master` pushen.
 
@@ -60,6 +60,56 @@ scss --watch website/assets/css/style.scss website/assets/css/style.css
 ```
 scss --style compressed website/assets/css/style.scss website/assets/css/style.css
 ```
+
+## Hoe maak ik een pull request
+
+# Via een fork
+
+* Maak via github een fork van de [repo](https://github.com/MakeInBelgium/naaiactie).
+* Maak op je lokale machine **eenmalig** een clone van deze repo.
+```
+git clone git@github.com:oenie/naaiactie.git
+```
+
+* Zorg dat je clone gelinkt is aan de originele repo, en maak hem meteen up-to-date.
+```
+git remote add upstream https://github.com/MakeInBelgium/naaiactie.git
+git fetch upstream && git merge upstream/master
+```
+
+* Doe je aanpassingen op je eigen master branch en commit deze op je eigen repo
+* Ga via de site naar je eigen fork. Klik vervolgens op **New pull request**
+* Vul indien gewenst nog wat extra informatie in, en klik op **Create pull request**
+* Wacht tot de PR wordt gemerged
+* Zorg bij volgende aanpassingen altijd dat je eerst je repo weer up-to-date brengt met de originele master
+```
+git fetch upstream && git merge upstream/master
+```
+
+# Via een pull request op de originele repo
+
+* Maak eenmalig een clone van de repo op je lokale machine
+```
+git clone git@github.com:MakeInBelgium/naaiactie.git
+```
+* Zorg dat je vertrekt van een up-to-date versie vande master branch
+```
+git checkout master; git pull origin master
+```
+* Maak een branch vanaf master
+```
+git checkout -b naam_van_je_branch
+```
+
+* Zorg dat je na je wijzigingen de dingen commit en pusht naar je branch
+```
+git add -A; git commit -m 'Dit is wat ik heb aangepast'
+git push origin naam_van_je_branch
+```
+
+* Ga via de site naar de repo en kies uit de dropdown je eigen branch. Klik vervolgens op **New pull request**
+* Vul indien gewenst nog wat extra informatie in, en klik op **Create pull request**
+* Wacht tot de PR wordt gemerged, en je bent klaar.
 
 ## Deployment
 
