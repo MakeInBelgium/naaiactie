@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - master
-      - mh-cloudflare
+      - mh-secrets
 
 jobs:
   deploy:
@@ -17,8 +17,5 @@ jobs:
       - name: Publish
         uses: cloudflare/wrangler-action@1.1.0
         with:
-          apiKey: 9c56047583875706a14ad38f3280bf381c452
-          email: tech@coronadenktank.be
-#        with:
-#          apiToken: ${{ secrets.CF_API_TOKEN }}
-#          apiToken: YmH6ZW4gfupLHKoneIsC-PWy_4T0JTmiqMq9cetw
+          apiKey: ${{ secrets.CF_API_KEY }}
+          email: ${{ secrets.CF_EMAIL }}
