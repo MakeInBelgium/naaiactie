@@ -63,7 +63,7 @@ scss --style compressed website/assets/css/style.scss website/assets/css/style.c
 
 ## Hoe maak ik een pull request
 
-# Via een fork
+### Via een fork
 
 * Maak via github een fork van de [repo](https://github.com/MakeInBelgium/naaiactie).
 * Maak op je lokale machine **eenmalig** een clone van deze repo.
@@ -86,7 +86,7 @@ git fetch upstream && git merge upstream/master
 git fetch upstream && git merge upstream/master
 ```
 
-# Via een pull request op de originele repo
+### Via een pull request op de originele repo
 
 * Maak eenmalig een clone van de repo op je lokale machine
 ```
