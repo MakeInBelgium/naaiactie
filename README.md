@@ -1,7 +1,7 @@
 # Naaiactie
 
 Bijdrage leveren? Dat kan!
-* Maak een fork (of branch) en een pull request (zie lager)
+* Maak een fork (of branch) en een pull request (zie [Hoe maak ik een pull request](#hoe-maak-ik-een-pull-request))
 * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).
 * **NOOIT** rechtstreeks op `master` pushen.
 
