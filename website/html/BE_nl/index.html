@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Primary Meta Tags -->
-  <title>Maak een mondmasker 😷</title>
+  <title>Maak je mondmasker 😷</title>
   <meta name="title" content="maakjemondmasker.be">
   <meta name="description"
-    content="😷 MAAK EEN MONDMASKER 😷 Om de strijd tegen #COVID19BE te winnen, hebben ze dringend nood aan mondmaskers. Maar die zijn bijna uitgeput. Wij laten onze zorgverleners niet stikken. Dat doen wij in hun plaats. Handmade. With love. ❤">
+    content="😷 MAAK EEN MONDMASKER 😷 Maak en draag ook zelf een herbruikbaar mondmasker, om de strijd tegen #COVID19BE te winnen! Handmade. With love. ❤">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -21,7 +21,7 @@
   <meta property="og:url" content="https://maakjemondmasker.be/">
   <meta property="og:title" content="maakjemondmasker.be">
   <meta property="og:description"
-    content="😷 MAAK EEN MONDMASKER 😷 Om de strijd tegen #COVID19BE te winnen, hebben ze dringend nood aan mondmaskers. Maar die zijn bijna uitgeput. Wij laten onze zorgverleners niet stikken. Dat doen wij in hun plaats. Handmade. With love. ❤">
+    content="😷 MAAK EEN MONDMASKER 😷 Maak en draag ook zelf een herbruikbaar mondmasker, om de strijd tegen #COVID19BE te winnen! Handmade. With love. ❤">
   <meta property="og:image" content="https://maakjemondmasker.be/images/og.png">
 
   <!-- Twitter -->
@@ -29,18 +29,27 @@
   <meta property="twitter:url" content="https://maakjemondmasker.be/">
   <meta property="twitter:title" content="maakjemondmasker.be">
   <meta property="twitter:description"
-    content="😷 MAAK EEN MONDMASKER 😷 Om de strijd tegen #COVID19BE te winnen, hebben ze dringend nood aan mondmaskers. Maar die zijn bijna uitgeput. Wij laten onze zorgverleners niet stikken. Dat doen wij in hun plaats. Handmade. With love. ❤">
+    content="😷 MAAK EEN MONDMASKER 😷 Maak en draag ook zelf een herbruikbaar mondmasker, om de strijd tegen #COVID19BE te winnen! Handmade. With love. ❤">
   <meta property="twitter:image" content="https://maakjemondmasker.be/images/og.png">
 
   <!-- Bootstrap core CSS -->
   <!--<link href="/assets/css/style.css?v{VERSION}" rel="stylesheet">-->
   <link href="/assets/css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=swap" rel="stylesheet">
+
+  <!-- lazy solution, but it'd be the only piece of logic added to the stylesheet otherwise -->
+<style type="text/css">
+@media (max-width: 992px) {
+  div.tip-grid {
+    font-size: 80%;
+  }
+}
+</style>
 </head>
 
-<body data-spy="scroll" data-target="#primaryNavigation" data-offset="100">
+<body data-spy="scroll" data-target="#primaryNavigation" data-offset="65">
   <!-- navbar -->
-  <nav id="primaryNavigation" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
+  <nav id="primaryNavigation top" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
     <div class="container">
       <a class="navbar-brand text-uppercase font-weight-bold" href="/">maakje<wbr class="d-xl-none">mondmasker</a>
       <div class="dropdown ml-auto mr-2 mx-xl-0 order-xl-last">
@@ -60,28 +69,22 @@
       <div class="collapse navbar-collapse" id="navContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#hero">home</a>
+            <a class="nav-link" href="#top">concept</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#video">video</a>
+            <a class="nav-link" href="#maken">maken</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#alternatief">meer maken</a>
+            <a class="nav-link" href="#dragen">dragen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">veelgestelde vragen</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#other">schort / muts</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#donate">doneren</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#wearing">draagtips</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">vragen</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#making">maaktips</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#share">deel en download</a>
           </li>
         </ul>
       </div>
@@ -90,85 +93,210 @@
 
   <!-- Page Content -->
   <header id="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <article class="column-section left">
-            <header class="heading-byline">
-              <h1>Maak een mondmasker</h1>
-              <span class="h5 text-primary">Laat onze zorgverleners niet stikken!</span>
-            </header>
+    <div class="container bg-light">
+      <div class="row pt-5">
+        <div class="col-lg-3 d-none d-lg-block text-right pt-5">
+          <img src="/assets/img/hero-links.png" alt="Mondmasker with Love" class="img-fluid" width="300" />
+        </div>
+
+        <div class="col-lg-6 col-12 pt-5">
+          <article class="text-center">
+            <h2>Ik bescherm jou,<br>jij beschermt mij</h2>
+
             <main>
-              <p>
-                Onze zorgverleners hebben je nodig! Om de strijd tegen <a href="https://www.facebook.com/hashtag/covid19be">#COVID19BE</a> te winnen, hebben ze dringend nood aan
-                mondmaskers. Maar die zijn bijna uitgeput. Wij bezorgen hen alvast een back-up plan, met onze
-                zelfgemaakte maskers. Wij laten onze zorgverleners niet stikken. Dat doen wij in hun plaats. Handmade. With love.&nbsp;❤️
-              </p>
-              <p>
-                Ook als je ziek bent en thuis ge&iuml;soleerd bent, heb je baat bij zo’n masker. Dit masker verlaagt de kans
-                dat je iemand uit je omgeving besmet. Haal je naaimachines boven en roep je vriend(inn)en op om mee te
-                doen.
-              </p>
+              <p>Om <a href="https://www.facebook.com/hashtag/covid19be">#COVID19BE</a> mee te helpen bestrijden, maakten we al duizenden back-up mondmaskers voor onze hulpverleners. Handmade, with love.
+              <p>Maak en draag ook zelf een herbruikbaar mondmasker, waar en wanneer dat volgens de overheid aangeraden is. Blijf 1,5 m afstand houden, raak je gezicht niet aan en was je handen met water en zeep.
             </main>
-            <footer class="mt-4">
-              <p class="text-primary">#nationalenaaiactie  #couturesolidaire</p>
-              <p>
-                <a class="btn btn-primary btn-lg" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">
-                  Download patroon &amp; werkwijze
-                </a>
-              </p>
-            </footer>
+            <p class="mt-5 pt-3">
+              <a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">
+                Download patroon &amp; werkwijze
+              </a>
+            </p>
             <br>
             <br>
           </article>
         </div>
+
+        <div class="col-lg-3 d-none d-lg-block text-left pt-5">
+          <img src="/assets/img/hero-rechts.png" alt="Mondmasker with Love" class="img-fluid" width="300" />
+        </div>
+
+        <!--
         <div class="col-md-6 hero-bg d-flex align-items-center">
-          <div class="column-section right">
+          <div class="column-section right pt-5 pb-5">
             <figure class="main-graphic">
-              <img src="/assets/img/hero-img.png" alt="Mondmasker with Love" class="img-fluid" width="740"
-                height="755" />
+              <img src="/assets/img/hero-img.png" alt="Mondmasker with Love" class="img-fluid" width="740" height="755" />
             </figure>
             <p class="pl-md-4 pl-lg-5">
             Ook met dit zelfgemaakt mondkapje is het belangrijk altijd de algemene regels te volgen. Dit is géén mondkapje van medische kwaliteit, zie ook de <a href="https://epidemio.wiv-isp.be/ID/Documents/Covid19/COVID-19_RMG_Brief_MondMaskers_NL.pdf">officiële richtlijnen</a>.
             </p>
           </div>
         </div>
+        -->
       </div>
     </div>
   </header>
-  <section id="video" class="bg-secondary text-light">
-    <div class="container">
-      <h2 class="text-center">Bekijk de instructievideo</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/e8VBkjz43vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <section id="maken" class="bg-secondary">
+    <div class="p-5">
+      <div class="row pt-5 pb-3">
+        <div class="col-lg-6">
+          <h2 class="text-center">Maak je mondmasker</h2>
+          <div class="tip-grid text-center">
+            <ul class="list-unstyled row justify-content-between align-content-center">
+              <li class="col-6 mb-0 align-content-center">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-02-zonder-marge.svg" width="65" height="65"
+                      class="img-fluid" alt="handen wassen" />
+                  </figure>
+                  <p class="p-0">
+                    was je handen 60<br>
+                    seconden met zeep
+                  </p>
+                </article>
+              </li>
+              <li class="col-6 mb-0">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-01-zonder-marge.svg" width="80" height="80"
+                      class="img-fluid" alt="naaimachine steriel" />
+                  </figure>
+                  <p class="p-0" style="hyphens: auto">
+                    maak je naai&shy;machine steriel
+                    met ont&shy;smet&shy;tings&shy;mid&shy;del
+                  </p>
+                </article>
+              </li>
+              <li class="col-6 mb-0">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0 mt-lg-4" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-03-zonder-marge.svg" width="65" height="65"
+                      class="img-fluid" alt="handen wassen" />
+                  </figure>
+                  <p class="p-0">
+                    was je handen opnieuw<br>
+                    alvorens verder te werken
+                  </p>
+                </article>
+              </li>
+              <li class="col-6 mb-0">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0 mt-lg-4" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-04-zonder-marge.svg" width="50" height="50"
+                      class="img-fluid" alt="man met mondmasker" />
+                  </figure>
+                  <p class="p-0">
+                    draag tijdens het maken<br>
+                    zelf een mondmasker
+                  </p>
+                </article>
+              </li>
+            </ul>
           </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px">
+              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/e8VBkjz43vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!--
+            <p class="mt-5 pt-3">
+              <a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">
+                Download patroon &amp; werkwijze
+              </a>
+            </p>
+            -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="dragen">
+    <div class="p-5">
+      <div class="row pt-5 pb-3">
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
+              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TvyGDT-dP5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h2 class="text-center">Draag je mondmasker</h2>
+          <p class="text-center">Ben je zelf ziek of is iemand ziek in je woning? Ben je in de supermarkt of op een plaats met weinig luchtcirculatie? Behoor je tot een risicovolle groep? Dan kan een mondmasker nuttig zijn, als je het correct draagt.
+          <p class="text-center mt-5">
+            <a class="btn btn-primary btn-md" href="/pdf/gebruiksaanwijzing_nl.pdf" target="_blank">
+              Download de draagtips
+            </a>
+          </p>
+          <!--
+          <p class="text-center mt-5">
+            <a class="btn btn-primary btn-md" href="/draagtips.html">
+              bekijk meer filmpjes
+            </a>
+          </p>
+          -->
         </div>
       </div>
     </div>
   </section>
 
-  <section id="alternatief" class="bg-light">
-    <div class="container">
+  <section id="faq" class="bg-primary text-white">
+    <div class="p-3 p-lg-5">
+      <div class="row align-items-center justify-content-between px-xl-3 pt-5 pb-3">
+        <div class="col-md-6 px-lg-5 col-lg-5">
+          <h2 class="h2">Veelgestelde vragen</h2>
+
+          <ul class="list-unstyled text-dark font-weight-bold">
+            <li>Waarom zou ik dit ontwerp gebruiken?</li>
+            <li class="text-white">Dit patroon is gebaseerd op best practices uit de sector en werd onder meer gedeeld door FOD Volksgezondheid.
+          </ul>
+          <ul class="list-unstyled text-dark font-weight-bold">
+            <li>Welke filter gebruik ik best?</li>
+            <li class="text-white">Een stofzuigzakfilter is het makkelijkst te vinden en te gebruiken.
+          </ul>
+          <p class="my-5 text-dark font-weight-bold">
+            Het antwoord op je vragen vind je in de uitgebreide handleiding
+          </p>
+          <p class="mt-4">
+            <a class="btn btn-secondary btn-md" href="http://www.facebook.com/handmadewithloveBE" target="_blank" rel="noopener nofollow">vraag raad in de groep</a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <figure class="text-center">
+            <img src="/assets/img/question.png" alt="Questions" class="img-fluid" width="500" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="other" class="bg-light">
+    <div class="container pt-5 pb-5">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6 col-lg-5">
           <figure class="mb-0">
-              <img src="/assets/img/kleding.png" alt="Mondmasker with Love" class="img-fluid" width="740" height="755" />
+              <img src="/assets/img/kleding.png" alt="Mondmasker with Love" class="img-fluid" width="600" />
           </figure>
         </div>
         <div class="col-md-6">
             <header>
-              <h1>Of maak een muts of schort</h1>
-              <p>Je kan ook andere beschermkledij helpen maken, zoals een helmmuts of schort.
+              <h2>Maak ook een muts of schort</h2>
+              <p>Nog tijd of goesting? Je kan ook andere beschermkledij helpen maken.
               <p>
-                <a class="btn btn-primary btn-lg" href="/pdf/helmmuts.pdf" target="_blank">
-                  Download patroon voor helmmutsen
+                <a class="btn btn-primary btn-md" href="/pdf/helmmuts.pdf" target="_blank">
+                  download het schortpatroon
                 </a>
               </p>
               <p>
-                <a class="btn btn-primary btn-lg" href="https://wikifactory.com/+ctc" target="_blank">
-                  Download patroon voor schorten
+                <a class="btn btn-primary btn-md" href="https://wikifactory.com/+ctc" target="_blank">
+                  download het mutspatroon
                 </a>
               </p>
             </header>
@@ -177,221 +305,48 @@
     </div>
   </section>
 
-  <section id="donate" class="bg-primary text-white">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
+  <section id="donate" class="bg-secondary">
+    <div class="p-3 p-lg-5">
+      <div class="row align-items-center px-lg-5 justify-content-between">
         <div class="col-md-6 col-lg-5">
-          <figure class="mb-0">
-            <img src="/assets/img/face-mask.svg" class="img-fluid my-auto" width="740" height="753" />
+          <figure class="mb-0 text-center">
+            <img src="/assets/img/face-mask.svg" class="img-fluid my-auto" width="400" />
           </figure>
         </div>
         <div class="col-md-6">
-          <h2 class="h1">Doneer je materiaal, zo snel mogelijk!</h2>
-          <h3 class="h5 text-dark">Heb je jouw stapel mondmaskers, schorten of mutsen afgewerkt?</h3>
+          <h2 class="h2">Doneer je beschermmateriaal</h2>
+          <h3 class="h6 text-dark">Is jouw stapel zelfgemaakte mondmaskers, schorten of mutsen afgewerkt?</h3>
           <p>
-            Was je handen zo vaak mogelijk. Stop het materiaal in een afsluitbare zak (bv. diepvrieszakjes). Je redt er letterlijk
-            mensenlevens mee. Er wordt gewerkt aan een online dienst en afhaalsysteem.
-          </p>
-          <p>
-            Hou deze pagina in de gaten voor updates.
-          </p>
-          <p>
-            <strong class="h5 text-dark">Ook je gekochte mondmaskers kun je meegeven.</strong>
+          Was je handen zo vaak mogelijk en stop het materiaal in een afsluitbare zak (zoals een grote bruine envelop). Ook je gekochte mondmaskers redden nog steeds mensenlevens kun je nog steeds meegeven. Het materiaal wordt veilig opgepikt door onze koerierdienst
           </p>
           <p class="mt-5">
-            <a class="btn btn-secondary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLSciTabJ1kb7eYP_4jdOHEuQPM_TPl2R5hQjTom8Og24rQIA1A/viewform" target="_blank" rel="noopener nofollow">Naar Formulier</a>
+            <a class="btn btn-primary btn-md" href="https://docs.google.com/forms/d/e/1FAIpQLSciTabJ1kb7eYP_4jdOHEuQPM_TPl2R5hQjTom8Og24rQIA1A/viewform" target="_blank" rel="noopener nofollow">doneer</a>
           </p>
         </div>
       </div>
     </div>
   </section>
-  <section id="wearing" class="bg-light">
-    <div class="container">
-      <header class="heading-byline text-center">
-        <h2 class="h1 mb-4 text-center">Draag je masker zelf, als je ziek bent</h2>
-        <span class="h5 mt-n2 text-primary">Houd je aan deze 9 gebruikstips</span>
-      </header>
-      <div class="tip-grid">
-        <ul class="list-unstyled list-numbered row justify-content-between align-content-center">
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Was je handen grondig met water en zeep alvorens het masker aan te raken. Gebruik de uiteinden van de
-                linten om het masker aan te brengen.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Draag het masker alleen wanneer nodig. Bij thuisisolatie bijvoorbeeld, als er anderen in dezelfde ruimte
-                aanwezig zijn.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Hou je ook m&eacute;t een masker aan de basisregels: handen wassen, voldoende afstand houden en mensen
-                vermijden als je je ziek voelt.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Zorg dat het masker zo goed mogelijk aansluit op je gezicht. Je moet met mond  &eacute;n neus door het
-                masker ademen.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                <!--Mondmaskers werken minder goed bij kinderen. Verander hun masker regelmatig en was het na gebruik op kookprogramma.-->
-                Mondmaskers werken minder goed bij kinderen. Verander hun masker regelmatig.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Steriliseer elk mondmasker sowieso minstens &eacute;&eacute;nmaal per dag door het te wassen
-                op 90&#176;C.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Gebruik geen elastiekjes om het masker op te houden. Die kun je niet wassen.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Raak de binnenkant niet aan met je  vingers. Als je met 2 kleuren werkt, kun je
-                de binnenkant en de buitenkant van het masker makkelijk herkennen.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                <!--In de omslag van het masker kan je een vervangbare fılter schuiven, zoals een-->
-                <!--stofzuigerzak of een koolstoffılter. Was je handen ook grondig voor en na het wisselen van de filter.-->
-                In het masker kan je een vervangbare filter schuiven, zoals een stofzuigerzak of een koolstoffilter.
-                Was je handen grondig voor en na het wisselen van de filter.
-              </p>
-            </article>
-          </li>
-        </ul>
-        <p class="text-center"><a class="btn btn-primary btn-lg" href="/pdf/gebruiksaanwijzing_nl.pdf" target="_blank">download gebruikstips</a></p>
-      </div>
-    </div>
-  </section>
-  <section id="faq" class="bg-secondary text-white">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-md-6 col-lg-5">
-          <h2 class="h1">Veelgestelde vragen</h2>
 
-          <ul class="list-unstyled text-dark font-weight-bold">
-            <li>Waarom dit ontwerp?</li>
-            <li class="text-white">Dit ontwerp is gebaseerd op best practices uit de sector.
-            <li>Kan ik wijzigingen aanbrengen?</li>
-            <li class="text-white">Over dit ontwerp is goed nagedacht. Zo zijn de verschillende kleuren belangrijk om het besmettingsgevaar te beperken.
-          </ul>
-          <p class="my-5 font-large text-dark font-weight-bold">
-            Heb je andere vragen? Stel ze op onze Facebookpagina "Handmade with love", daar beantwoorden we je vragen.
-          </p>
-          <p class="mb-5">Download en lees eerst de volledige handleiding. Daar vind je alle details.</p>
-          <p class="mt-4">
-            <a class="btn btn-primary btn-lg" href="http://www.facebook.com/handmadewithloveBE" target="_blank" rel="noopener nofollow">Naar Facebook</a>
-          </p>
-        </div>
-        <div class="col-md-6">
-          <figure>
-            <img src="/assets/img/question.png" alt="Questions" class="img-fluid" width="700" height="637" />
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="making">
-    <div class="container">
-      <h2 class="text-center">Neem voldoende hygi&euml;nische maatregelen tijdens het maken</h2>
-      <div class="tip-grid">
-        <ul class="list-unstyled row justify-content-between align-content-center">
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-02.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="handen wassen" />
-              </figure>
-              <p>
-                was je handen 60<br>
-                seconden met zeep
-              </p>
-            </article>
-          </li>
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-01.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="naaimachine steriel" />
-              </figure>
-              <p>
-                maak je naaimachine steriel
-                met ontsmettingsmiddel
-              </p>
-            </article>
-          </li>
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-03.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="handen wassen" />
-              </figure>
-              <p>
-                was je handen opnieuw<br>
-                alvorens verder te werken
-              </p>
-            </article>
-          </li>
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-04.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="man met mondmasker" />
-              </figure>
-              <p>
-                draag tijdens het maken<br>
-                zelf een mondmasker
-              </p>
-            </article>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+
+  <!--
   <section id="share" class="bg-light">
     <div class="container text-center">
-      <h2 class="h1">wees solidair</h2>
+      <h2 class="h2">wees solidair</h2>
       <h3 class="h2">deel je maakfoto's met</h3>
       <p><strong class="font-large">#maakjemondmasker</strong></p>
       <p class="my-5 text-primary font-large font-weight-bold">ga alvast aan de slag met het patroon!</p>
-      <p><a class="btn btn-primary btn-lg" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">download patroon &amp; werkwijze</a></p>
+      <p><a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">download patroon &amp; werkwijze</a></p>
     </div>
   </section>
+  -->
 
   <footer class="navbar navbar-expand-md bg-primary navbar-dark">
     <div class="container">
       <ul class="nav navbar-nav w-100">
         <li class="nav-item"><a class="nav-link" href="https://www.coronadenktank.be/"><img src="/assets/coronadenktank.lamp.svg" width="30" alt="[Website]"> Coronadenktank.be</a>
-        <li class="nav-item"><a class="nav-link" href="https://twitter.com/coronadenktank"><img src="/assets/twitter.svg" width="30" alt="[Twitter]"> Coronadenktank op Twitter</a>
-        <li class="nav-item mr-auto"><a class="nav-link" href="https://github.com/MakeInBelgium"><img src="/assets/github.svg" width="30" alt="[Github]"> Coronadenktank op GitHub</a>
+        <li class="nav-item"><a class="nav-link" href="https://twitter.com/coronadenktank"><img src="/assets/twitter.svg" width="30" alt="[Twitter]"></a>
+        <li class="nav-item"><a class="nav-link" href="https://github.com/MakeInBelgium"><img src="/assets/github.svg" width="30" alt="[GitHub]"></a>
+        <li class="nav-item mr-auto"><a class="nav-link" href="https://www.facebook.com/groups/629261774578619/"><img src="/assets/facebook.svg" width="30" alt="[Facebook]"></a>
         <li class="nav-item"><strong><a class="nav-link" href="disclaimer.html">Disclaimer</a></strong>
       </ul>
     </div>
