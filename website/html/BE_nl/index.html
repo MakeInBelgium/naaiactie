@@ -36,9 +36,18 @@
   <!--<link href="/assets/css/style.css?v{VERSION}" rel="stylesheet">-->
   <link href="/assets/css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=swap" rel="stylesheet">
+
+  <!-- lazy solution, but it'd be the only piece of logic added to the stylesheet otherwise -->
+<style type="text/css">
+@media (max-width: 992px) {
+  div.tip-grid {
+    font-size: 80%;
+  }
+}
+</style>
 </head>
 
-<body data-spy="scroll" data-target="#primaryNavigation" data-offset="75">
+<body data-spy="scroll" data-target="#primaryNavigation" data-offset="65">
   <!-- navbar -->
   <nav id="primaryNavigation top" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
     <div class="container">
@@ -86,28 +95,30 @@
   <header id="hero">
     <div class="container bg-light">
       <div class="row pt-5">
-        <div class="col-lg-3 d-none d-lg-block text-right">
-          <img src="/assets/img/hero-links.png" alt="Mondmasker with Love" class="img-fluid" width="500" />
+        <div class="col-lg-3 d-none d-lg-block text-right pt-5">
+          <img src="/assets/img/hero-links.png" alt="Mondmasker with Love" class="img-fluid" width="300" />
         </div>
 
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-12 pt-5">
           <article class="text-center">
             <h2>Ik bescherm jou,<br>jij beschermt mij</h2>
 
             <main>
               <p>Om <a href="https://www.facebook.com/hashtag/covid19be">#COVID19BE</a> mee te helpen bestrijden, maakten we al duizenden back-up mondmaskers voor onze hulpverleners. Handmade, with love.
-              <p>Maak en draag ook zelf een herbruikbaar mondmasker, waar en wanneer dat volgens de overheid aangeraden is. Blijf 1,5 m afstand houden, raak je gezicht niet aan en was je handen met water en zeep
+              <p>Maak en draag ook zelf een herbruikbaar mondmasker, waar en wanneer dat volgens de overheid aangeraden is. Blijf 1,5 m afstand houden, raak je gezicht niet aan en was je handen met water en zeep.
             </main>
-            <footer class="mt-4">
-              <p class="text-primary">#nationalenaaiactie</p>
-            </footer>
+            <p class="mt-5 pt-3">
+              <a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">
+                Download patroon &amp; werkwijze
+              </a>
+            </p>
             <br>
             <br>
           </article>
         </div>
 
-        <div class="col-lg-3 d-none d-lg-block text-left">
-          <img src="/assets/img/hero-rechts.png" alt="Mondmasker with Love" class="img-fluid" width="500" />
+        <div class="col-lg-3 d-none d-lg-block text-left pt-5">
+          <img src="/assets/img/hero-rechts.png" alt="Mondmasker with Love" class="img-fluid" width="300" />
         </div>
 
         <!--
@@ -131,12 +142,12 @@
       <div class="row pt-5 pb-3">
         <div class="col-lg-6">
           <h2 class="text-center">Maak je mondmasker</h2>
-          <div class="tip-grid">
+          <div class="tip-grid text-center">
             <ul class="list-unstyled row justify-content-between align-content-center">
-              <li class="col-6 mb-0">
-                <article class="text-center">
-                  <figure class="mb-0" style="height: 100px">
-                    <img src="/assets/img/naaiactie-iconen-hygiene-02-zonder-marge.svg" width="75" height="75"
+              <li class="col-6 mb-0 align-content-center">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-02-zonder-marge.svg" width="65" height="65"
                       class="img-fluid" alt="handen wassen" />
                   </figure>
                   <p class="p-0">
@@ -146,21 +157,21 @@
                 </article>
               </li>
               <li class="col-6 mb-0">
-                <article class="text-center">
-                  <figure class="mb-0" style="height: 100px">
-                    <img src="/assets/img/naaiactie-iconen-hygiene-01-zonder-marge.svg" width="95" height="95"
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-01-zonder-marge.svg" width="80" height="80"
                       class="img-fluid" alt="naaimachine steriel" />
                   </figure>
-                  <p class="p-0">
-                    maak je naaimachine steriel
-                    met ontsmettingsmiddel
+                  <p class="p-0" style="hyphens: auto">
+                    maak je naai&shy;machine steriel
+                    met ont&shy;smet&shy;tings&shy;mid&shy;del
                   </p>
                 </article>
               </li>
               <li class="col-6 mb-0">
-                <article class="text-center">
-                  <figure class="mb-0" style="height: 100px">
-                    <img src="/assets/img/naaiactie-iconen-hygiene-03-zonder-marge.svg" width="75" height="75"
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0 mt-lg-4" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-03-zonder-marge.svg" width="65" height="65"
                       class="img-fluid" alt="handen wassen" />
                   </figure>
                   <p class="p-0">
@@ -170,9 +181,9 @@
                 </article>
               </li>
               <li class="col-6 mb-0">
-                <article class="text-center">
-                  <figure class="mb-0" style="height: 100px">
-                    <img src="/assets/img/naaiactie-iconen-hygiene-04-zonder-marge.svg" width="60" height="60"
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0 mt-lg-4" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-04-zonder-marge.svg" width="50" height="50"
                       class="img-fluid" alt="man met mondmasker" />
                   </figure>
                   <p class="p-0">
@@ -187,15 +198,17 @@
 
         <div class="col-lg-6">
           <div class="row justify-content-center">
-            <div class="">
+            <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px">
               <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/e8VBkjz43vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <p class="text-center mt-5 pt-3">
+            <!--
+            <p class="mt-5 pt-3">
               <a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">
                 Download patroon &amp; werkwijze
               </a>
             </p>
+            -->
           </div>
         </div>
 
@@ -206,18 +219,18 @@
   <section id="dragen">
     <div class="p-5">
       <div class="row pt-5 pb-3">
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <div class="row justify-content-center">
-            <div class="embed-responsive embed-responsive-16by9">
+            <div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
               <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/e8VBkjz43vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-lg-6">
           <h2 class="text-center">Draag je mondmasker</h2>
-          <p>Ben je zelf ziek of iemand binnen je woning? Ben je in de supermarkt of op een plaats met weinig luchtcirculatie? Behoor je tot een risicovolle groep? Dan kan een mondmasker nuttig zijn, als je het correct draagt.
-            <p class="text-center">
+          <p class="text-center">Ben je zelf ziek of is iemand ziek in je woning? Ben je in de supermarkt of op een plaats met weinig luchtcirculatie? Behoor je tot een risicovolle groep? Dan kan een mondmasker nuttig zijn, als je het correct draagt.
+            <p class="text-center mt-5">
               <a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">
                 Download de draagtips
               </a>
@@ -228,9 +241,9 @@
   </section>
 
   <section id="faq" class="bg-primary text-white">
-    <div class="p-5">
-      <div class="row align-items-center justify-content-between pt-5 pb-3">
-        <div class="col-md-6 col-lg-5">
+    <div class="p-3 p-lg-5">
+      <div class="row align-items-center justify-content-between px-xl-3 pt-5 pb-3">
+        <div class="col-md-6 px-lg-5 col-lg-5">
           <h2 class="h2">Veelgestelde vragen</h2>
 
           <ul class="list-unstyled text-dark font-weight-bold">
@@ -262,7 +275,7 @@
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6 col-lg-5">
           <figure class="mb-0">
-              <img src="/assets/img/kleding.png" alt="Mondmasker with Love" class="img-fluid" width="740" height="755" />
+              <img src="/assets/img/kleding.png" alt="Mondmasker with Love" class="img-fluid" width="600" />
           </figure>
         </div>
         <div class="col-md-6">
@@ -276,7 +289,7 @@
               </p>
               <p>
                 <a class="btn btn-primary btn-md" href="https://wikifactory.com/+ctc" target="_blank">
-                  download het mutspatroonn
+                  download het mutspatroon
                 </a>
               </p>
             </header>
@@ -286,11 +299,11 @@
   </section>
 
   <section id="donate" class="bg-secondary">
-    <div class="p-5">
-      <div class="row align-items-center justify-content-between">
+    <div class="p-3 p-lg-5">
+      <div class="row align-items-center px-lg-5 justify-content-between">
         <div class="col-md-6 col-lg-5">
           <figure class="mb-0 text-center">
-            <img src="/assets/img/face-mask.svg" class="img-fluid my-auto" width="740" height="753" />
+            <img src="/assets/img/face-mask.svg" class="img-fluid my-auto" width="400" />
           </figure>
         </div>
         <div class="col-md-6">
