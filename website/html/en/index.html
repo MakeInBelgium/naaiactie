@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -22,7 +22,7 @@
   <meta property="og:title" content="makefacemasks.com">
   <meta property="og:description"
     content="😷 MAKEYOURFACEMASK 😷 To win the battle against #COVID19, we need face masks. But we are running out. We will not let our health care providers down! Instead, we'll show our support, by sewing masks. Handmade. With love. ❤">
-  <meta property="og:image" content="https://makefacemasks.com/images/og_en.png">
+  <meta property="og:image" content="https://makefacemasks.com/images/og_en.jpg">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
@@ -30,19 +30,29 @@
   <meta property="twitter:title" content="makefacemasks.com">
   <meta property="twitter:description"
     content="😷 MAKEYOURFACEMASK 😷 To win the battle against #COVID19, we need face masks. But we are running out. We will not let our health care providers down! Instead, we'll show our support, by sewing masks. Handmade. With love. ❤">
-  <meta property="twitter:image" content="https://makefacemasks.com/images/og_en.png">
+  <meta property="twitter:image" content="https://makefacemasks.com/images/og_en.jpg">
 
   <!-- Bootstrap core CSS -->
   <!--<link href="/assets/css/style.css?v{VERSION}" rel="stylesheet">-->
   <link href="/assets/css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=swap" rel="stylesheet">
+
+  <!-- lazy solution, but it'd be the only piece of logic added to the stylesheet otherwise -->
+<style type="text/css">
+@media (max-width: 992px) {
+  div.tip-grid {
+    font-size: 80%;
+  }
+}
+</style>
 </head>
 
-<body data-spy="scroll" data-target="#primaryNavigation" data-offset="100">
+<body data-spy="scroll" data-target="#primaryNavigation" data-offset="65">
   <!-- navbar -->
-  <nav id="primaryNavigation" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
+  <nav id="primaryNavigation top" class="navbar navbar-expand-xl navbar-dark bg-primary sticky-top">
     <div class="container">
       <a class="navbar-brand text-uppercase font-weight-bold" href="/">make<wbr class="d-xl-none">facemasks</a>
+
       <div class="dropdown ml-auto mr-2 mx-xl-0 order-xl-last">
         <button class="btn btn-sm btn-outline-light dropdown-toggle border-0" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Kies je taal">
           EN
@@ -53,32 +63,31 @@
           <a class="dropdown-item small" href="https://makefacemasks.com">makefacemasks.com</a>
         </div>
       </div>
+
       <button class="navbar-toggler order-xl-last" type="button" data-toggle="collapse" data-target="#navContent"
               aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#hero">home</a>
+            <a class="nav-link" href="#top">concept</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#video">video</a>
+            <a class="nav-link" href="#maken">make</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#dragen">wear</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">faq</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#other">cap / apron</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#donate">donate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#wearing">how to wear it</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#making">make your own</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#share">share and download</a>
           </li>
         </ul>
       </div>
@@ -87,258 +96,251 @@
 
   <!-- Page Content -->
   <header id="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <article class="column-section left">
-            <header class="heading-byline">
-              <h1>Make a face mask</h1>
-              <span class="h5 text-primary">Don't let our health care providers down!</span>
-            </header>
+    <div class="container bg-light">
+      <div class="row pt-5">
+        <div class="col-lg-3 d-none d-lg-block text-right pt-5">
+          <img src="/assets/img/hero-links.png" alt="Mondmasker with Love" class="img-fluid" width="300" />
+        </div>
+
+        <div class="col-lg-6 col-12 pt-5">
+          <article class="text-center">
+            <h2>I protect you, <br>you protect me. </h2>
+
             <main>
-              <p>
-              Our health professionals need you! To win the battle against <a href="https://www.facebook.com/hashtag/covid19">#COVID19</a>, they urgently need face masks. Currently stores are almost depleted. We have come up with a back-up plan, with our homemade masks. We don't intend to let our health care providers down. Instead, we'll show our support, by sewing masks. Handmade. With love.&nbsp;❤️
-              </p>
-              <p>
-                Even if you're sick and in self-isolation, you still stand to benefit from wearing such a mask. The mask reduces your risk of infecting people around you. So get sewing and ask your friends to help.
-              </p>
+              <p>To help fight <a href="https://www.facebook.com/hashtag/covid19be">#COVID19BE</a> we've already created thousands of back-up face masks for our care providers. Handmade, with love.
+              <p>Make and wear a reusable face mask yourself, when and where the government recommends it. Keep a distance of at least 1.5 m, don't touch your face and wash your hands with soap and water.
             </main>
-            <footer class="mt-4">
-              <p class="text-primary">#sewing4life</p>
-              <p>
-                <a class="btn btn-primary btn-lg" href="/pdf/Facemask_pattern_and_guidelines_20200318_v2.pdf" target="_blank">
-                  Download pattern &amp; guidelines
-                </a>
-              </p>
-            </footer>
+            <p class="mt-5 pt-3">
+              <a class="btn btn-primary btn-md" href="/pdf/Facemask_pattern_and_guidelines_20200318_v2.pdf" target="_blank">
+                download pattern and method
+              </a>
+            </p>
+            <br>
+            <br>
           </article>
         </div>
+
+        <div class="col-lg-3 d-none d-lg-block text-left pt-5">
+          <img src="/assets/img/hero-rechts.png" alt="Mondmasker with Love" class="img-fluid" width="300" />
+        </div>
+
+        <!--
         <div class="col-md-6 hero-bg d-flex align-items-center">
-          <div class="column-section right">
+          <div class="column-section right pt-5 pb-5">
             <figure class="main-graphic">
               <img src="/assets/img/hero-img.png" alt="Mondmasker with Love" class="img-fluid" width="740" height="755" />
             </figure>
             <p class="pl-md-4 pl-lg-5">
-              This pattern and this method was recommended by the <a href="https://www.facebook.com/notes/fod-volksgezondheid-veiligheid-van-de-voedselketen-en-leefmilieu/tips-om-je-eigen-mondmasker-te-maken/3168180623213948/">Belgian Federal Public Service for Public Health</a>. Other patterns that are being shared online have not been tested and might therefore not be safe. When using these self-made face masks, it is vital that you follow the general guidelines. This face mask is <strong>not</strong> a medical mask, see also the <a href="https://epidemio.wiv-isp.be/ID/Documents/Covid19/COVID-19_RMG_Brief_MondMaskers_NL.pdf">official guidelines</a>.
+            Ook met dit zelfgemaakt mondkapje is het belangrijk altijd de algemene regels te volgen. Dit is géén mondkapje van medische kwaliteit, zie ook de <a href="https://epidemio.wiv-isp.be/ID/Documents/Covid19/COVID-19_RMG_Brief_MondMaskers_NL.pdf">officiële richtlijnen</a>.
             </p>
           </div>
         </div>
+        -->
       </div>
     </div>
   </header>
-  <section id="video" class="bg-secondary text-light">
-    <div class="container">
-      <h2 class="text-center">Watch the instruction video</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iSNQTSIQnLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <section id="maken" class="bg-secondary">
+    <div class="p-5">
+      <div class="row pt-5 pb-3">
+        <div class="col-lg-6">
+          <h2 class="text-center">Make your own face mask</h2>
+          <div class="tip-grid text-center">
+            <ul class="list-unstyled row justify-content-between align-content-center">
+              <li class="col-6 mb-0 align-content-center">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-02-zonder-marge.svg" width="65" height="65"
+                      class="img-fluid" alt="handen wassen" />
+                  </figure>
+                  <p class="p-0">
+                    wash your hands for 60 seconds with soap and water
+                  </p>
+                </article>
+              </li>
+              <li class="col-6 mb-0">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-01-zonder-marge.svg" width="80" height="80"
+                      class="img-fluid" alt="naaimachine steriel" />
+                  </figure>
+                  <p class="p-0" style="hyphens: auto">
+                    sterilise your sewing machine with disinfectant
+                  </p>
+                </article>
+              </li>
+              <li class="col-6 mb-0">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0 mt-lg-4" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-03-zonder-marge.svg" width="65" height="65"
+                      class="img-fluid" alt="handen wassen" />
+                  </figure>
+                  <p class="p-0">
+                    wash your hands again before sewing your face mask
+                  </p>
+                </article>
+              </li>
+              <li class="col-6 mb-0">
+                <article class="text-center" style="margin: 0 auto; max-width: 250px">
+                  <figure class="mb-0 mt-lg-4" style="height: 75px">
+                    <img src="/assets/img/naaiactie-iconen-hygiene-04-zonder-marge.svg" width="50" height="50"
+                      class="img-fluid" alt="man met mondmasker" />
+                  </figure>
+                  <p class="p-0">
+                    wear a face mask while making your own face mask
+                  </p>
+                </article>
+              </li>
+            </ul>
           </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="embed-responsive embed-responsive-16by9" style="max-width: 800px">
+              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iSNQTSIQnLo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <!--
+            <p class="mt-5 pt-3">
+              <a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">
+                Download patroon &amp; werkwijze
+              </a>
+            </p>
+            -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="dragen">
+    <div class="p-5">
+      <div class="row pt-5 pb-3">
+        <div class="col-lg-6">
+          <div class="row justify-content-center">
+            <div class="mb-5 embed-responsive embed-responsive-16by9" style="max-width: 800px">
+              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube-nocookie.com/embed/TvyGDT-dP5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h2 class="text-center">Wear your face mask</h2>
+          <p class="text-center">Are you or is someone you live with sick? Are you in the supermarket or in a poorly-ventilated place? Are you a high-risk patient? There are benefits to wearing a face mask, but only if you wear it properly.
+          <p class="text-center mt-5">
+            <a class="btn btn-primary btn-md" href="/pdf/gebruiksaanwijzing_nl.pdf" target="_blank">
+              download tips on how to wear it
+            </a>
+          </p>
+          <p class="text-center mt-2">
+            <a class="btn btn-primary btn-md" href="/howtowear.html">
+              watch individual instruction videos
+            </a>
+          </p>
         </div>
       </div>
     </div>
   </section>
-  <section id="donate" class="bg-primary text-white">
-    <div class="container">
+
+  <section id="faq" class="bg-primary text-white">
+    <div class="p-3 p-lg-5">
+      <div class="row align-items-center justify-content-between px-xl-3 pt-5 pb-3">
+        <div class="col-md-6 px-lg-5 col-lg-5">
+          <h2 class="h2">Frequently Asked Questions</h2>
+
+          <ul class="list-unstyled text-dark font-weight-bold">
+            <li>Why should I use this pattern?</li>
+            <li class="text-white">This pattern is based on industry best practices and was shared by, among others, the Federal Public Service of Public Health.
+          </ul>
+          <ul class="list-unstyled text-dark font-weight-bold">
+            <li>Which filter should I use?</li>
+            <li class="text-white">A vacuum cleaner bag filter is easiest to find and use.
+          </ul>
+          <p class="my-5 text-dark font-weight-bold">
+            You can find the answers to all your questions in the comprehensive manual.
+          </p>
+          <p class="mt-4">
+            <a class="btn btn-secondary btn-md" href="http://www.facebook.com/handmadewithloveBE" target="_blank" rel="noopener nofollow">ask the group for advice</a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <figure class="text-center">
+            <img src="/assets/img/question.png" alt="Questions" class="img-fluid" width="500" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="other" class="bg-light">
+    <div class="container pt-5 pb-5">
       <div class="row align-items-center justify-content-between">
         <div class="col-md-6 col-lg-5">
           <figure class="mb-0">
-            <img src="/assets/img/face-mask.svg" class="img-fluid my-auto" width="740" height="753" />
+              <img src="/assets/img/kleding.png" alt="Mondmasker with Love" class="img-fluid" width="600" />
           </figure>
         </div>
         <div class="col-md-6">
-          <h2 class="h1">Donate your face masks now!</h2>
-          <h3 class="h5 text-dark">Did you finish a bunch of face masks?</h3>
-          <p>
-            <!--Was je handen zo vaak mogelijk. Stop de mondmaskers in een afsluitbare zak (bv. diepvrieszakjes). Je redt er letterlijk-->
-            <!--mensenlevens mee. Er wordt gewerkt aan een online dienst en afhaalsysteem.-->
-            Remember to wash your hands often. Place the face masks in a resealable bag (e.g. freezer bags). You can save lives by doing this.
-          </p>
-          <p>
-            <strong class="h5 text-dark">You can also donate the face masks that you bought.</strong>
-          </p>
+            <header>
+              <h2>Make a cap or apron</h2>
+              <p>Have some time to spare? Want to get more involved? Help make other protective gear.
+              <p>
+                <a class="btn btn-primary btn-md" href="/pdf/helmmuts.pdf" target="_blank">
+                  download the apron pattern
+                </a>
+              </p>
+              <p>
+                <a class="btn btn-primary btn-md" href="https://wikifactory.com/+ctc" target="_blank">
+                  download the cap pattern
+                </a>
+              </p>
+            </header>
         </div>
       </div>
     </div>
   </section>
-  <section id="wearing" class="bg-light">
-    <div class="container">
-      <header class="heading-byline text-center">
-        <h2 class="h1 mb-4 text-center">Wear your face mask yourself if you are sick</h2>
-        <span class="h5 mt-n2 text-primary">Follow these 9 tips to put on your face mask correctly</span>
-      </header>
-      <div class="tip-grid">
-        <ul class="list-unstyled list-numbered row justify-content-between align-content-center">
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Clean your hands thoroughly with soap and water before touching the face mask. Hold the mask by the ties to put it on.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Only wear the face mask when needed. For example during self-isolation at home when other people are in the same room as you.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Stick to the basic rules even when wearing your face mask: wash your hands, maintain a safe distance and avoid physical interaction if you're feeling sick.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Make sure the face mask fits snugly. You must be able to breathe through your nose and mouth when wearing it.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                <!--Mondmaskers werken minder goed bij kinderen. Verander hun masker regelmatig en was het na gebruik op kookprogramma.-->
-Face masks are less effective for children. Change their mask regularly.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Sterilise the face mask at least once a day by washing it at 90°C (= 194°F).
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Do not use elastic loops for the mask. These cannot be washed.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                Do not touch the inner layer of the face mask with your fingers. Use 2 colours to easily differentiate the inner layer of the face mask from the outer layer.
-              </p>
-            </article>
-          </li>
-          <li class="col-md-6 col-lg-4">
-            <article class="text-center">
-              <p>
-                <!--In de omslag van het masker kan je een vervangbare fılter schuiven, zoals een-->
-                <!--stofzuigerzak of een koolstoffılter. Was je handen ook grondig voor en na het wisselen van de filter.-->
-                You can insert a replaceable filter in the face mask, such as the filter of a vacuum cleaner or a charcoal filter. Wash your hands thoroughly before and after replacing the filter.
-              </p>
-            </article>
-          </li>
-        </ul>
-        <p class="text-center"><a class="btn btn-primary btn-lg" href="/pdf/usage_tips.pdf" target="_blank">download usage tips</a></p>
-      </div>
-    </div>
-  </section>
-  <section id="faq" class="bg-secondary text-white">
-    <div class="container">
-      <div class="row align-items-center justify-content-between">
-        <div class="col-md-6 col-lg-5">
-          <h2 class="h1">Frequently asked questions</h2>
 
-          <ul class="list-unstyled text-dark font-large font-weight-bold">
-            <li>Why cotton?</li>
-            <li>How safe are these face masks?</li>
-            <li>Can we use other filters?</li>
-          </ul>
-          <p class="my-5 font-large font-weight-bold">
-            You can find answers to the most common questions on our Facebook page.
-          </p>
-          <p class="mb-5">Download and read the manual from start to finish first. It contains all the information you need</p>
-          <p class="mt-4">
-            <a class="btn btn-primary btn-lg" href="http://www.facebook.com/handmadewithloveBE" target="_blank" rel="noopener nofollow">to Facebook</a>
-          </p>
-        </div>
-        <div class="col-md-6">
-          <figure>
-            <img src="/assets/img/question.png" alt="Questions" class="img-fluid" width="700" height="637" />
+  <section id="donate" class="bg-secondary">
+    <div class="p-3 p-lg-5">
+      <div class="row align-items-center px-lg-5 justify-content-between">
+        <div class="col-md-6 col-lg-5">
+          <figure class="mb-0 text-center">
+            <img src="/assets/img/face-mask.svg" class="img-fluid my-auto" width="400" />
           </figure>
         </div>
+        <div class="col-md-6">
+          <h2 class="h2">Donate your protective equipment</h2>
+          <h3 class="h6 text-dark">Did you finish a stack of home-made face masks, aprons or caps?</h3>
+          <p>
+          Wash your hands as often as possible and place the kit in a sealable bag or a large brown envelope. Remember, any masks you purchased can still save lives, so feel free to donate them too.
+          </p>
+        </div>
       </div>
     </div>
   </section>
-  <section id="making">
-    <div class="container">
-      <h2 class="text-center">Proper hygiene is one of the most important measures when making face mask</h2>
-      <div class="tip-grid">
-        <ul class="list-unstyled row justify-content-between align-content-center">
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-02.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="handen wassen" />
-              </figure>
-              <p>
-                wash your hands for 60 seconds
-                with soap and water
-              </p>
-            </article>
-          </li>
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-01.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="naaimachine steriel" />
-              </figure>
-              <p>
-                sterilise your sewing machine
-                with disinfectant
-              </p>
-            </article>
-          </li>
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-03.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="handen wassen" />
-              </figure>
-              <p>
-                wash your hands again
-                before continuing to work
-              </p>
-            </article>
-          </li>
-          <li class="col-sm-6 col-md-4 col-lg-3">
-            <article class="text-center">
-              <figure class="mb-0">
-                <img src="/assets/img/naaiactie-iconen-hygiene-04.svg" width="300" height="300"
-                  class="img-fluid rounded-circle" alt="man met mondmasker" />
-              </figure>
-              <p>
-                wear a face mask while making a face mask
-              </p>
-            </article>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
+
+
+  <!--
   <section id="share" class="bg-light">
     <div class="container text-center">
-      <h2 class="h1">show your solidarity</h2>
-      <h3 class="h2">share photos with</h3>
-      <p><strong class="font-large">#sewing4life</strong></p>
-      <p class="my-5 text-primary font-large font-weight-bold">Get started with the pattern!</p>
-      <p><a class="btn btn-primary btn-lg" href="/pdf/Facemask_pattern_and_guidelines_20200318_v2.pdf" target="_blank">download pattern &amp; guidelines</a></p>
+      <h2 class="h2">wees solidair</h2>
+      <h3 class="h2">deel je maakfoto's met</h3>
+      <p><strong class="font-large">#maakjemondmasker</strong></p>
+      <p class="my-5 text-primary font-large font-weight-bold">ga alvast aan de slag met het patroon!</p>
+      <p><a class="btn btn-primary btn-md" href="/pdf/Mondmasker_patroon_en_handleiding_20200318_v2.pdf" target="_blank">download patroon &amp; werkwijze</a></p>
     </div>
   </section>
+  -->
 
   <footer class="navbar navbar-expand-md bg-primary navbar-dark">
     <div class="container">
       <ul class="nav navbar-nav w-100">
         <li class="nav-item"><a class="nav-link" href="https://www.coronadenktank.be/"><img src="/assets/coronadenktank.lamp.svg" width="30" alt="[Website]"> Coronadenktank.be</a>
-        <li class="nav-item"><a class="nav-link" href="https://twitter.com/coronadenktank"><img src="/assets/twitter.svg" width="30" alt="[Twitter]"> Coronadenktank on Twitter</a>
-        <li class="nav-item mr-auto"><a class="nav-link" href="https://github.com/MakeInBelgium"><img src="/assets/github.svg" width="30" alt="[Github]"> Coronadenktank on GitHub</a>
+        <li class="nav-item"><a class="nav-link" href="https://twitter.com/coronadenktank"><img src="/assets/twitter.svg" width="30" alt="[Twitter]"></a>
+        <li class="nav-item"><a class="nav-link" href="https://github.com/MakeInBelgium"><img src="/assets/github.svg" width="30" alt="[GitHub]"></a>
+        <li class="nav-item mr-auto"><a class="nav-link" href="https://www.facebook.com/groups/629261774578619/"><img src="/assets/facebook.svg" width="30" alt="[Facebook]"></a>
         <li class="nav-item"><strong><a class="nav-link" href="disclaimer.html">Disclaimer</a></strong>
       </ul>
     </div>
