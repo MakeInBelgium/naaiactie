@@ -8,8 +8,7 @@ const DOMAIN_MAPPING = {
   'makefacemasks.com': '/html/en/',
   'maakjemondmasker.be': '/html/BE_nl/',
   'faitesvotremasquebuccal.be': '/html/BE_fr/',
-  'maakjemondmasker.nl': '/html/NL_nl/',
-  'maakjemondkapje.nl': '/html/NL_nl/'
+  'mundschutznaehen.be': '/html/BE_de/',
 }
 
 /**
