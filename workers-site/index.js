@@ -9,6 +9,7 @@ const DOMAIN_MAPPING = {
   'maakjemondmasker.be': '/html/BE_nl/',
   'faitesvotremasquebuccal.be': '/html/BE_fr/',
   'mundschutznaehen.be': '/html/BE_de/',
+  'nationalenaaiactie.be': '/html/BE_nl/'
 }
 
 /**
