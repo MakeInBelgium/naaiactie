@@ -5,3 +5,6 @@ assets/css/.sass-cache
 
 # Cloudflare Wrangler
 dist/
+
+*_site*
+*.swp
